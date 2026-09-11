@@ -1,0 +1,43 @@
+dataModelId: 1912ddce-8121-42fb-8daf-324e6be8bc79
+name: Test Data model
+url: http://127.0.0.1:3000/sigma-computing1/data-model/Test-Data-model-LjqFwLFkSG2eYSVzymSKJ
+documentVersion: 2
+latestDocumentVersion: 2
+ownerId: Edzt8gtpG0sdAXjYW8mWUyl7byoad
+folderId: d5964253-44c7-41f1-928f-00174578c094
+createdBy: Edzt8gtpG0sdAXjYW8mWUyl7byoad
+updatedBy: Edzt8gtpG0sdAXjYW8mWUyl7byoad
+createdAt: '2026-09-11T00:36:35.082Z'
+updatedAt: '2026-09-11T00:37:01.634Z'
+schemaVersion: 1
+pages:
+  - id: Hp03p-fof_
+    name: Page 1
+    elements:
+      - id: _kkWB_0_Tl
+        kind: table
+        source:
+          connectionId: 4e7b9e00-aabe-483e-933b-4c1f6f6fd17b
+          kind: warehouse-table
+          path:
+            - EXAMPLES
+            - CENSUS
+            - CENSUS
+        columns:
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
+            formula: '[CENSUS/Fips]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
+            formula: '[CENSUS/County]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
+            formula: '[CENSUS/State]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
+            formula: '[CENSUS/Population 2000]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
+            formula: '[CENSUS/Population 2010]'
+        order:
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
+kind: data-model
