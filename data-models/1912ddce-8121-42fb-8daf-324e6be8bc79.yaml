@@ -30,14 +30,14 @@ pages:
             formula: '[CENSUS/County]'
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
             formula: '[CENSUS/State]'
-          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
-            formula: '[CENSUS/Population 2000]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
+            formula: '[CENSUS/Population 2010]'
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
             formula: '[CENSUS/Population 2010]'
         order:
           - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
           - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
           - inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
-          - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
           - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
 kind: data-model
