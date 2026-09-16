@@ -26,8 +26,8 @@ pages:
         columns:
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
             formula: '[CENSUS/Fips]'
-          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY1
-            formula: '[CENSUS/County]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
+            formula: '[CENSUS/County]
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/POPULATION 2010
             formula: '[CENSUS/population 2010]'
         order:
