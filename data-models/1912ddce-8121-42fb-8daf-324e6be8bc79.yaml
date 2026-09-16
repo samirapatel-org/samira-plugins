@@ -18,7 +18,7 @@ pages:
         kind: table
         source:
           connectionId: 4e7b9e00-aabe-483e-933b-4c1f6f6fd17b
-          kind: 3-warehouse-table
+          kind: warehouse-table
           path:
             - EXAMPLES
             - CENSUS
