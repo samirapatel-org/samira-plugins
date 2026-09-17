@@ -31,9 +31,8 @@ pages:
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/POPULATION 2010
             formula: '[CENSUS/Population 2010]'
         order:
-          - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
           - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
-          - inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
-          - inode-1sCJ6HTJLe7ClnV3tX51LR/POPULATION 2000
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/POPULATION 2010
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
 kind: data-model
           
