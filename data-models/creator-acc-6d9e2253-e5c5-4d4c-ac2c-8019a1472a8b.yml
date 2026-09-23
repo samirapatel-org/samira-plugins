@@ -95,7 +95,7 @@ pages:
             formula: '[COMPLETE_FINANCIALS/Amount]'
           - id: CUST_KEY
             formula: '[COMPLETE_FINANCIALS/Cust Key]'
-        name: Financial Activity
+        name: Financial Activity 12
         description: >-
           Transaction-level financial activity for actual and budget reporting by account, department, region, and
           product area.
