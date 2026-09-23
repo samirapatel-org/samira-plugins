@@ -95,7 +95,7 @@ pages:
             formula: '[COMPLETE_FINANCIALS/Amount]'
           - id: CUST_KEY
             formula: '[COMPLETE_FINANCIALS/Cust Key]'
-        name: Financial Activity
+        name: Financial Activity 12
         description: >-
           Transaction-level financial activity for actual and budget reporting by account, department, region, and
           product area.
@@ -154,7 +154,7 @@ pages:
             keys:
               - sourceColumnId: ACCOUNT
                 targetColumnId: inode-51OaOYVYrlmnlR8whtg0Ko/ACCOUNT
-            name: Financial Activity to Account
+            name: Financial Activity to Account Rel1
             description: Each financial activity record maps to one account in the account hierarchy.
             relationshipType: N:1
         order:
