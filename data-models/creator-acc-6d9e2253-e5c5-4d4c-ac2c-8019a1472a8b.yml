@@ -1,0 +1,172 @@
+dataModelId: 6d9e2253-e5c5-4d4c-ac2c-8019a1472a8b
+name: Testing git integration
+url: https://staging.sigmacomputing.io/creator/data-model/Testing-git-integration-3kQqJeTlJH7VzSqB66ftI7
+documentVersion: 2
+latestDocumentVersion: 2
+ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
+folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
+createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+createdAt: '2026-09-23T18:01:48.444Z'
+updatedAt: '2026-09-23T18:10:56.509Z'
+schemaVersion: 1
+pages:
+  - id: SDDAtoim3b
+    name: Page 1
+    elements:
+      - id: H9wGPAMdtd
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - FINANCE
+            - PLUGS_ELECTRONICS_FINANCIALS
+            - ACCOUNT_HIERARCHY
+        columns:
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/SECTION
+            formula: '[ACCOUNT_HIERARCHY/Section]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_1_CODE
+            formula: '[ACCOUNT_HIERARCHY/Level 1 Code]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_1_CATEGORY
+            formula: '[ACCOUNT_HIERARCHY/Level 1 Category]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_2_CODE
+            formula: '[ACCOUNT_HIERARCHY/Level 2 Code]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_2_CATEGORY
+            formula: '[ACCOUNT_HIERARCHY/Level 2 Category]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/ACCOUNT
+            formula: '[ACCOUNT_HIERARCHY/Account]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/DESCRIPTION
+            formula: '[ACCOUNT_HIERARCHY/Description]'
+        name: Account 1
+        folders:
+          - id: zVBopK_9VZ
+            name: Hierarchy
+            items:
+              - inode-51OaOYVYrlmnlR8whtg0Ko/SECTION
+              - inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_1_CODE
+              - inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_1_CATEGORY
+              - inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_2_CODE
+              - inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_2_CATEGORY
+          - id: RClowetelO
+            name: Account Details
+            items:
+              - inode-51OaOYVYrlmnlR8whtg0Ko/ACCOUNT
+              - inode-51OaOYVYrlmnlR8whtg0Ko/DESCRIPTION
+        order:
+          - zVBopK_9VZ
+          - RClowetelO
+        columnSecurities:
+          - id: USPE3m3dYM
+            criteria:
+              kind: no-one-can-view
+            restrictedColumns: []
+        uniqueKeys:
+          - inode-51OaOYVYrlmnlR8whtg0Ko/ACCOUNT
+      - id: ixs2SktG_6
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - FINANCE
+            - PLUGS_ELECTRONICS_FINANCIALS
+            - COMPLETE_FINANCIALS
+        columns:
+          - id: ACCOUNT
+            formula: '[COMPLETE_FINANCIALS/Account]'
+          - id: DESCRIPTION_ACCOUNT_HIERARCHY
+            formula: '[COMPLETE_FINANCIALS/Description Account Hierarchy]'
+          - id: TRANSACTION_DATE
+            formula: '[COMPLETE_FINANCIALS/Transaction Date]'
+          - id: PRODUCT_AREA
+            formula: '[COMPLETE_FINANCIALS/Product Area]'
+          - id: REGION
+            formula: '[COMPLETE_FINANCIALS/Region]'
+          - id: DEPARTMENT
+            formula: '[COMPLETE_FINANCIALS/Department]'
+          - id: JOURNAL_ENTRY_ID
+            formula: '[COMPLETE_FINANCIALS/Journal Entry Id]'
+          - id: SCENARIO
+            formula: '[COMPLETE_FINANCIALS/Scenario]'
+          - id: BOOKED_AMOUNT
+            formula: '[COMPLETE_FINANCIALS/Booked Amount]'
+          - id: AMOUNT
+            formula: '[COMPLETE_FINANCIALS/Amount]'
+          - id: CUST_KEY
+            formula: '[COMPLETE_FINANCIALS/Cust Key]'
+        name: Financial Activity
+        description: >-
+          Transaction-level financial activity for actual and budget reporting by account, department, region, and
+          product area.
+        metrics:
+          - id: WalC9MBWE-
+            formula: SumIf([Amount], [Scenario] = "Actual")
+            name: Actual Amount
+            description: Sum of Amount for Actual scenario transactions.
+            format:
+              kind: number
+              formatString: $,.0f
+            timeline:
+              dateColumnId: TRANSACTION_DATE
+              truncation: month
+              comparison:
+                comparisonPeriod: month
+          - id: LSBKLxxdXk
+            formula: SumIf([Amount], [Scenario] = "Budget")
+            name: Budget Amount
+            description: Sum of Amount for Budget scenario transactions.
+            format:
+              kind: number
+              formatString: $,.0f
+            timeline:
+              dateColumnId: TRANSACTION_DATE
+              truncation: month
+              comparison:
+                comparisonPeriod: month
+          - id: Vf6_iqf7K6
+            formula: ''
+            name: Variance
+            description: Actual Amount minus Budget Amount.
+            format:
+              kind: number
+              formatString: $,.0f
+            timeline:
+              dateColumnId: TRANSACTION_DATE
+              truncation: month
+              comparison:
+                comparisonPeriod: month
+          - id: vcCeqrh8D4
+            formula: ''
+            name: Variance %
+            description: Variance divided by Budget Amount.
+            format:
+              kind: number
+              formatString: ',.1%'
+            timeline:
+              dateColumnId: TRANSACTION_DATE
+              truncation: month
+              comparison:
+                comparisonPeriod: month
+        relationships:
+          - id: QpnSYIx2iH
+            targetElementId: H9wGPAMdtd
+            keys:
+              - sourceColumnId: ACCOUNT
+                targetColumnId: inode-51OaOYVYrlmnlR8whtg0Ko/ACCOUNT
+            name: Financial Activity to Account
+            description: Each financial activity record maps to one account in the account hierarchy.
+            relationshipType: N:1
+        order:
+          - ACCOUNT
+          - DESCRIPTION_ACCOUNT_HIERARCHY
+          - TRANSACTION_DATE
+          - PRODUCT_AREA
+          - REGION
+          - DEPARTMENT
+          - JOURNAL_ENTRY_ID
+          - SCENARIO
+          - BOOKED_AMOUNT
+          - AMOUNT
+          - CUST_KEY
+kind: data-model
