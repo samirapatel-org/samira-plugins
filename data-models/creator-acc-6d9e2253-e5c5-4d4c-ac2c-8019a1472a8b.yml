@@ -154,7 +154,7 @@ pages:
             keys:
               - sourceColumnId: ACCOUNT
                 targetColumnId: inode-51OaOYVYrlmnlR8whtg0Ko/ACCOUNT
-            name: Financial Activity to Account Rel
+            name: Financial Activity to Account Rel1
             description: Each financial activity record maps to one account in the account hierarchy.
             relationshipType: N:1
         order:
