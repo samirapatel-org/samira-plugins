@@ -31,7 +31,7 @@ elements:
         formula: '[CENSUS/Population 2000]'
       - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
         formula: '[CENSUS/Population 2010]'
-    name: CENSUS - ver6
+    name: CENSUS - ver7
     order:
       - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
       - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
