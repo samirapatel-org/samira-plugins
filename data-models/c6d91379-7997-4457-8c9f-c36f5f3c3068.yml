@@ -34,7 +34,7 @@ pages:
             formula: '[CENSUS/Population 2000]'
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
             formula: '[CENSUS/Population 2010]'
-        name: DM CENSUS - Git 2
+        name: DM CENSUS - Git 3
         order:
           - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
           - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
