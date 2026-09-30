@@ -32,7 +32,7 @@ pages:
             formula: '[ORDERS/Unit Price]'
           - id: inode-545bYUTGe6sJdFxjvZariH/V userId
             formula: '[ORDERS/V User Id]'
-        name: ORDERS 1
+        name: ORDERS 1.1
         order:
           - inode-545bYUTGe6sJdFxjvZariH/DATE
           - inode-545bYUTGe6sJdFxjvZariH/QTY
