@@ -1,0 +1,41 @@
+dataModelId: dcc7d06d-f835-437a-b2f3-546bda292b21
+name: My Data Model
+url: https://staging.sigmacomputing.io/creator/data-model/My-Data-Model-6IBCTeorTe3vzRFPG4nBRL
+documentVersion: 2
+latestDocumentVersion: 2
+ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
+folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
+createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+createdAt: '2026-09-30T22:36:59.779Z'
+updatedAt: '2026-09-30T22:37:13.848Z'
+schemaVersion: 1
+pages:
+  - id: 0UO_qUVYMk
+    name: Page 1
+    elements:
+      - id: MD1LXPpp-r
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - RETAIL
+            - INSTACART
+            - ORDERS
+        columns:
+          - id: inode-545bYUTGe6sJdFxjvZariH/DATE
+            formula: '[ORDERS/Date]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/QTY
+            formula: '[ORDERS/Qty]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
+            formula: '[ORDERS/Unit Price]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/V userId
+            formula: '[ORDERS/V User Id]'
+        name: ORDERS 1
+        order:
+          - inode-545bYUTGe6sJdFxjvZariH/DATE
+          - inode-545bYUTGe6sJdFxjvZariH/QTY
+          - inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
+          - inode-545bYUTGe6sJdFxjvZariH/V userId
+kind: data-model
