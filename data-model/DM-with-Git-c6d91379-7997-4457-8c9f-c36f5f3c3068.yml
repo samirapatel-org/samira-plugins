@@ -1,14 +1,14 @@
 dataModelId: c6d91379-7997-4457-8c9f-c36f5f3c3068
 name: DM with Git
 url: http://127.0.0.1:3000/sigma-computing1/data-model/DM-with-Git-63dGsjBeSZpn2KrLAjLlzy
-documentVersion: 5
-latestDocumentVersion: 5
+documentVersion: 6
+latestDocumentVersion: 6
 ownerId: Edzt8gtpG0sdAXjYW8mWUyl7byoad
 folderId: d5964253-44c7-41f1-928f-00174578c094
 createdBy: Edzt8gtpG0sdAXjYW8mWUyl7byoad
 updatedBy: Edzt8gtpG0sdAXjYW8mWUyl7byoad
 createdAt: '2026-09-29T20:54:32.174Z'
-updatedAt: '2026-09-29T23:38:17.184Z'
+updatedAt: '2026-09-29T23:41:11.362Z'
 schemaVersion: 1
 pages:
   - id: xQ7ElWMZKM
@@ -32,7 +32,7 @@ pages:
             formula: '[CENSUS/Population 2000]'
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
             formula: '[CENSUS/Population 2010]'
-        name: DM CENSUS - Git 5
+        name: DM CENSUS - Git 6
         order:
           - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
           - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
@@ -64,4 +64,81 @@ pages:
           - inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
           - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
           - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
+      - id: dxZrvEDwzs
+        kind: table
+        source:
+          dataModelId: 6b6594b7-5f0d-48cf-8070-f790bc2cddad
+          elementId: LJ1cnqP1Bb
+          kind: data-model
+        columns:
+          - id: omx5fJqzgg
+            formula: '[Raw Financial Data/Date]'
+          - id: 1pvyuooRFU
+            formula: '[Raw Financial Data/Dynamic Date]'
+          - id: U9nXZvqomK
+            formula: '[Raw Financial Data/Gl Id]'
+          - id: nBlDWHb8TW
+            formula: '[Raw Financial Data/Fiscal Period]'
+          - id: ei0HwBZAcp
+            formula: '[Raw Financial Data/Fiscal Year]'
+          - id: 1toLsIjXys
+            formula: '[Raw Financial Data/Fiscal Quarter]'
+          - id: AZpOHE4bpI
+            formula: '[Raw Financial Data/Fiscal Month]'
+          - id: BXykVLSg53
+            formula: '[Raw Financial Data/Subsidiary Code]'
+          - id: zBi1cBvgRC
+            formula: '[Raw Financial Data/Plant Code]'
+          - id: 6Mz9x4SzYc
+            formula: '[Raw Financial Data/Plant Name]'
+          - id: Rpumaxe58J
+            formula: '[Raw Financial Data/Region]'
+          - id: wuFnHHRBsU
+            formula: '[Raw Financial Data/Product Family]'
+          - id: uCZojMV33U
+            formula: '[Raw Financial Data/Product Family Code]'
+          - id: sDyBl2fYd_
+            formula: '[Raw Financial Data/Account Code]'
+          - id: bjRQc_pudK
+            formula: '[Raw Financial Data/Account Name]'
+          - id: P3KlgacaIe
+            formula: '[Raw Financial Data/Pl Statement Section]'
+          - id: UhfD22nnl1
+            formula: '[Raw Financial Data/Pl Category]'
+          - id: AU3QvwrbfR
+            formula: '[Raw Financial Data/Pl Subcategory]'
+          - id: '-4HpaQxm8K'
+            formula: '[Raw Financial Data/Pl Sort Order]'
+          - id: _sVxFl2Imh
+            formula: '[Raw Financial Data/Amount]'
+          - id: X5qKsoVhDH
+            formula: '[Raw Financial Data/Source Table]'
+          - id: Eu9ew7_1_H
+            formula: '[Raw Financial Data/Gl Date]'
+          - id: vxuDUwwVPk
+            formula: '[Raw Financial Data/Fiscal Quarter Label]'
+        order:
+          - omx5fJqzgg
+          - 1pvyuooRFU
+          - U9nXZvqomK
+          - nBlDWHb8TW
+          - ei0HwBZAcp
+          - 1toLsIjXys
+          - AZpOHE4bpI
+          - BXykVLSg53
+          - zBi1cBvgRC
+          - 6Mz9x4SzYc
+          - Rpumaxe58J
+          - wuFnHHRBsU
+          - uCZojMV33U
+          - sDyBl2fYd_
+          - bjRQc_pudK
+          - P3KlgacaIe
+          - UhfD22nnl1
+          - AU3QvwrbfR
+          - '-4HpaQxm8K'
+          - _sVxFl2Imh
+          - X5qKsoVhDH
+          - Eu9ew7_1_H
+          - vxuDUwwVPk
 kind: data-model
