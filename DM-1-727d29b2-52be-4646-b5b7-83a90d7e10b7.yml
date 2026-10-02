@@ -1,0 +1,77 @@
+dataModelId: 727d29b2-52be-4646-b5b7-83a90d7e10b7
+name: DM 1
+url: https://staging.sigmacomputing.io/creator/data-model/DM-1-3u2k8NULF63wItQLuHWr5R
+documentVersion: 2
+latestDocumentVersion: 2
+ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
+folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
+createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+createdAt: '2026-10-02T17:16:01.399Z'
+updatedAt: '2026-10-02T17:16:11.429Z'
+schemaVersion: 1
+pages:
+  - id: omNDw6VFLn
+    name: Page 1
+    elements:
+      - id: 5wnZ8VqQcN
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - EXAMPLES
+            - PLUGS_ELECTRONICS
+            - D_CUSTOMER
+        columns:
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
+            formula: '[D_CUSTOMER/Cust Key]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
+            formula: '[D_CUSTOMER/Cust Name]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
+            formula: '[D_CUSTOMER/Cust Address]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
+            formula: '[D_CUSTOMER/Cust City]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
+            formula: '[D_CUSTOMER/Cust State]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ZIP_CODE
+            formula: '[D_CUSTOMER/Cust Zip Code]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_COUNTY
+            formula: '[D_CUSTOMER/Cust County]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_REGION
+            formula: '[D_CUSTOMER/Cust Region]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_SINCE
+            formula: '[D_CUSTOMER/Cust Since]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_TYPE
+            formula: '[D_CUSTOMER/Cust Type]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_GENDER
+            formula: '[D_CUSTOMER/Cust Gender]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_AGE
+            formula: '[D_CUSTOMER/Cust Age]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/AGE_GROUP
+            formula: '[D_CUSTOMER/Age Group]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CIVIL_STATUS
+            formula: '[D_CUSTOMER/Civil Status]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
+            formula: '[D_CUSTOMER/Loyalty Program]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
+            formula: '[D_CUSTOMER/Cust Json Field]'
+        name: D_CUSTOMER 42342
+        order:
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ZIP_CODE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_COUNTY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_REGION
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_SINCE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_TYPE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_GENDER
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_AGE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/AGE_GROUP
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CIVIL_STATUS
+          - inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
+kind: data-model
