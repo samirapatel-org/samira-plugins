@@ -30,11 +30,12 @@ pages:
             formula: '[CENSUS/County]'
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
             formula: '[CENSUS/State]'
+            name: State 1
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
             formula: '[CENSUS/Population 2000]'
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
             formula: '[CENSUS/Population 2010]'
-        name: CENSUS 18
+        name: CENSUS 19
         order:
           - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
           - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
