@@ -28,15 +28,13 @@ pages:
             formula: '[CENSUS/Fips]'
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
             formula: '[CENSUS/County]'
-            name: County 1
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
             formula: '[CENSUS/State]'
-            name: State 1
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
             formula: '[CENSUS/Population 2000]'
           - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
             formula: '[CENSUS/Population 2010]'
-        name: CENSUS 16
+        name: CENSUS 13
         order:
           - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
           - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
