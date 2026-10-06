@@ -1,14 +1,14 @@
 dataModelId: 087b5762-2bb5-4697-8582-eb43ca6fd240
 name: DM to connect to Git
 url: https://staging.sigmacomputing.io/creator/data-model/DM-to-connect-to-Git-g0iXmK1OO5pIFWEQQNkUE
-documentVersion: 2
-latestDocumentVersion: 2
+documentVersion: 3
+latestDocumentVersion: 3
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 createdAt: '2026-10-06T22:26:52.998Z'
-updatedAt: '2026-10-06T22:27:25.739Z'
+updatedAt: '2026-10-06T22:28:48.665Z'
 schemaVersion: 1
 pages:
   - id: V5Q0XB36TT
@@ -32,7 +32,7 @@ pages:
             formula: '[ORDERS/Unit Price]'
           - id: inode-545bYUTGe6sJdFxjvZariH/V userId
             formula: '[ORDERS/V User Id]'
-        name: ORDERS - PR 1
+        name: ORDERS - PR 2
         order:
           - inode-545bYUTGe6sJdFxjvZariH/DATE
           - inode-545bYUTGe6sJdFxjvZariH/QTY
