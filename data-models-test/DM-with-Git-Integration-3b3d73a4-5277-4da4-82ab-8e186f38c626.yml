@@ -1,14 +1,14 @@
 dataModelId: 3b3d73a4-5277-4da4-82ab-8e186f38c626
 name: DM with Git Integration
 url: https://staging.sigmacomputing.io/creator/data-model/DM-with-Git-Integration-1NMD6PzEM4nehzpBfM25Gm
-documentVersion: 2
-latestDocumentVersion: 2
+documentVersion: 3
+latestDocumentVersion: 3
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 createdAt: '2026-10-06T23:24:53.293Z'
-updatedAt: '2026-10-06T23:25:11.332Z'
+updatedAt: '2026-10-06T23:31:55.608Z'
 schemaVersion: 1
 pages:
   - id: NSNw236cfA
@@ -32,7 +32,7 @@ pages:
             formula: '[ORDERS/Unit Price]'
           - id: inode-545bYUTGe6sJdFxjvZariH/V userId
             formula: '[ORDERS/V User Id]'
-        name: PR 1
+        name: PR 2
         order:
           - inode-545bYUTGe6sJdFxjvZariH/DATE
           - inode-545bYUTGe6sJdFxjvZariH/QTY
