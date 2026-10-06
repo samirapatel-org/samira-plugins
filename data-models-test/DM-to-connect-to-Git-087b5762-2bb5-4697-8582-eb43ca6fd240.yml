@@ -1,0 +1,41 @@
+dataModelId: 087b5762-2bb5-4697-8582-eb43ca6fd240
+name: DM to connect to Git
+url: https://staging.sigmacomputing.io/creator/data-model/DM-to-connect-to-Git-g0iXmK1OO5pIFWEQQNkUE
+documentVersion: 2
+latestDocumentVersion: 2
+ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
+folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
+createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+createdAt: '2026-10-06T22:26:52.998Z'
+updatedAt: '2026-10-06T22:27:25.739Z'
+schemaVersion: 1
+pages:
+  - id: V5Q0XB36TT
+    name: Page 1
+    elements:
+      - id: 9XMSPiBueE
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - RETAIL
+            - INSTACART
+            - ORDERS
+        columns:
+          - id: inode-545bYUTGe6sJdFxjvZariH/DATE
+            formula: '[ORDERS/Date]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/QTY
+            formula: '[ORDERS/Qty]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
+            formula: '[ORDERS/Unit Price]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/V userId
+            formula: '[ORDERS/V User Id]'
+        name: ORDERS - PR 1
+        order:
+          - inode-545bYUTGe6sJdFxjvZariH/DATE
+          - inode-545bYUTGe6sJdFxjvZariH/QTY
+          - inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
+          - inode-545bYUTGe6sJdFxjvZariH/V userId
+kind: data-model
