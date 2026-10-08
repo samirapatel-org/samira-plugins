@@ -42,7 +42,7 @@ pages:
             formula: '[D_PRODUCT/Sku Number]'
           - id: inode-2jwcPVRxvdyXRlJhnmOvCF/PRICE
             formula: '[D_PRODUCT/Price]'
-        name: DM 1 - test 2 - new 3
+        name: DM 1 - test 2 - new 4
         order:
           - inode-2jwcPVRxvdyXRlJhnmOvCF/PRODUCT_KEY
           - inode-2jwcPVRxvdyXRlJhnmOvCF/PRODUCT_NAME
