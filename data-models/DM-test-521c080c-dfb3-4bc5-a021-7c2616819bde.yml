@@ -1,14 +1,14 @@
 dataModelId: 521c080c-dfb3-4bc5-a021-7c2616819bde
 name: DM test
 url: http://127.0.0.1:3000/sigma-computing1/data-model/DM-test-2uWbeBJG4pSSRhNzdmEN9I
-documentVersion: 4
-latestDocumentVersion: 4
+documentVersion: 5
+latestDocumentVersion: 5
 ownerId: Edzt8gtpG0sdAXjYW8mWUyl7byoad
 folderId: d5964253-44c7-41f1-928f-00174578c094
 createdBy: Edzt8gtpG0sdAXjYW8mWUyl7byoad
 updatedBy: Edzt8gtpG0sdAXjYW8mWUyl7byoad
 createdAt: '2026-10-08T18:00:52.591Z'
-updatedAt: '2026-10-08T18:37:05.716Z'
+updatedAt: '2026-10-08T18:46:56.898Z'
 schemaVersion: 1
 pages:
   - id: bnTnDqPKA2
@@ -42,7 +42,7 @@ pages:
             formula: '[D_PRODUCT/Sku Number]'
           - id: inode-2jwcPVRxvdyXRlJhnmOvCF/PRICE
             formula: '[D_PRODUCT/Price]'
-        name: DM 1 - test 7
+        name: DM 1 - test 8
         order:
           - inode-2jwcPVRxvdyXRlJhnmOvCF/PRODUCT_KEY
           - inode-2jwcPVRxvdyXRlJhnmOvCF/PRODUCT_NAME
