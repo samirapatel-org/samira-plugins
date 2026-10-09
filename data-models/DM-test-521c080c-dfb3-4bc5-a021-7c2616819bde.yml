@@ -28,7 +28,6 @@ pages:
             formula: '[D_PRODUCT/Product Key]'
           - id: inode-2jwcPVRxvdyXRlJhnmOvCF/PRODUCT_NAME
             formula: '[D_PRODUCT/Product Name]'
-            name: Product Name 1
           - id: inode-2jwcPVRxvdyXRlJhnmOvCF/PRODUCT_TYPE
             formula: '[D_PRODUCT/Product Type]'
           - id: inode-2jwcPVRxvdyXRlJhnmOvCF/PRODUCT_FAMILY
