@@ -1,14 +1,14 @@
 dataModelId: 65ed1857-4ece-44de-a982-1c75404bd8bf
 name: DM with shared collaboration
 url: https://staging.sigmacomputing.io/creator/data-model/DM-with-shared-collaboration-36kzOZp8vXAnrRm4pQIVBB
-documentVersion: 2
-latestDocumentVersion: 2
+documentVersion: 3
+latestDocumentVersion: 3
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 createdAt: '2026-10-13T20:55:53.422Z'
-updatedAt: '2026-10-13T20:56:06.148Z'
+updatedAt: '2026-10-13T20:58:13.056Z'
 schemaVersion: 1
 pages:
   - id: FQPHB8zqXC
@@ -30,6 +30,7 @@ pages:
             formula: '[D_CUSTOMER/Cust Name]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
             formula: '[D_CUSTOMER/Cust Address]'
+            name: testing title update
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
             formula: '[D_CUSTOMER/Cust City]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
@@ -56,7 +57,7 @@ pages:
             formula: '[D_CUSTOMER/Loyalty Program]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
             formula: '[D_CUSTOMER/Cust Json Field]'
-        name: Hey it's version - 2 by samira
+        name: Hey it's version - 3 by samira
         order:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
@@ -74,4 +75,18 @@ pages:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CIVIL_STATUS
           - inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
+      - kind: control
+        controlId: New-Control
+        id: Um5ZvJsX4_
+        filters:
+          - source:
+              kind: table
+              elementId: P25ziEp180
+            columnId: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_AGE
+        controlType: range-slider
+        low: 0
+        high: 100
+        includeNulls: when-no-value-is-selected
+        min: 0
+        max: 89
 kind: data-model
