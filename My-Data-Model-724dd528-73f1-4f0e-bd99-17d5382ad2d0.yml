@@ -1,14 +1,14 @@
 dataModelId: 724dd528-73f1-4f0e-bd99-17d5382ad2d0
-name: My Data Model
-url: https://staging.sigmacomputing.io/creator/data-model/My-Data-Model-3tGH5beHFWuYhX6fBiAB8I
-documentVersion: 1
-latestDocumentVersion: 1
+name: DM old version
+url: https://staging.sigmacomputing.io/creator/data-model/DM-old-version-3tGH5beHFWuYhX6fBiAB8I
+documentVersion: 2
+latestDocumentVersion: 2
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 createdAt: '2026-11-03T17:26:50.117Z'
-updatedAt: '2026-11-03T17:26:50.117Z'
+updatedAt: '2026-11-03T17:28:26.121Z'
 schemaVersion: 1
 pages:
   - id: pb4t0Ju3wc
@@ -56,7 +56,7 @@ pages:
             formula: '[D_CUSTOMER/Loyalty Program]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
             formula: '[D_CUSTOMER/Cust Json Field]'
-        name: new DM - updating PR
+        name: new DM - updating PR - trying again
         order:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
