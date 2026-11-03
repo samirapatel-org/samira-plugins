@@ -57,7 +57,7 @@ pages:
             formula: '[D_CUSTOMER/Loyalty Program]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
             formula: '[D_CUSTOMER/Cust Json Field]'
-        name: D_CUSTOMER 1212 jijr34535i
+        name: D_CUSTOMER 1212 jijr34535i t45645
         order:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
