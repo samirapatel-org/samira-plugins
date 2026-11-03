@@ -28,6 +28,7 @@ pages:
             formula: '[D_CUSTOMER/Cust Key]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
             formula: '[D_CUSTOMER/Cust Name]'
+            name: Cust Name4 42342
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
             formula: '[D_CUSTOMER/Cust Address]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
