@@ -1,14 +1,14 @@
 dataModelId: 0e3dc215-00e3-49dc-9a99-25242cca7a4e
 name: My Data Model
 url: https://staging.sigmacomputing.io/creator/data-model/My-Data-Model-qS7cntr60o6LGqGg764iy
-documentVersion: 2
-latestDocumentVersion: 2
+documentVersion: 3
+latestDocumentVersion: 3
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: SigmaGitSyncRobot
 createdAt: '2026-11-03T22:30:31.426Z'
-updatedAt: '2026-11-03T22:32:19.870Z'
+updatedAt: '2026-11-03T22:33:16.625Z'
 schemaVersion: 1
 pages:
   - id: 8UD-OK-zIq
@@ -57,7 +57,7 @@ pages:
             formula: '[D_CUSTOMER/Loyalty Program]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
             formula: '[D_CUSTOMER/Cust Json Field]'
-        name: D_CUSTOMER 1212 jiji
+        name: D_CUSTOMER 1212 jijr34535i
         order:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
