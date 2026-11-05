@@ -38,7 +38,7 @@ pages:
             formula: '[ACCOUNT_HIERARCHY/Account]'
           - id: inode-51OaOYVYrlmnlR8whtg0Ko/DESCRIPTION
             formula: '[ACCOUNT_HIERARCHY/Description]'
-        name: ACCOUNT_HIERARCHY new edit new changes
+        name: ACCOUNT_HIERARCHY new edit new changes 1
         order:
           - inode-51OaOYVYrlmnlR8whtg0Ko/SECTION
           - inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_1_CODE
