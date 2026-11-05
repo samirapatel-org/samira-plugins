@@ -1,0 +1,50 @@
+dataModelId: 4165b035-658a-438d-8ca3-ba8a2b0e5d23
+name: My Data Model
+url: https://staging.sigmacomputing.io/creator/data-model/My-Data-Model-1ZoYjZLvmVjVc8OLxKNtrJ
+documentVersion: 1
+latestDocumentVersion: 1
+ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
+folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
+createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+createdAt: '2026-11-05T18:12:34.471Z'
+updatedAt: '2026-11-05T18:12:34.471Z'
+schemaVersion: 1
+pages:
+  - id: s6r6RUNHQG
+    name: Page 1
+    elements:
+      - id: '-Qh-x3NxWo'
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - FINANCE
+            - PLUGS_ELECTRONICS_FINANCIALS
+            - ACCOUNT_HIERARCHY
+        columns:
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/SECTION
+            formula: '[ACCOUNT_HIERARCHY/Section]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_1_CODE
+            formula: '[ACCOUNT_HIERARCHY/Level 1 Code]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_1_CATEGORY
+            formula: '[ACCOUNT_HIERARCHY/Level 1 Category]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_2_CODE
+            formula: '[ACCOUNT_HIERARCHY/Level 2 Code]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_2_CATEGORY
+            formula: '[ACCOUNT_HIERARCHY/Level 2 Category]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/ACCOUNT
+            formula: '[ACCOUNT_HIERARCHY/Account]'
+          - id: inode-51OaOYVYrlmnlR8whtg0Ko/DESCRIPTION
+            formula: '[ACCOUNT_HIERARCHY/Description]'
+        name: ACCOUNT_HIERARCHY new edit
+        order:
+          - inode-51OaOYVYrlmnlR8whtg0Ko/SECTION
+          - inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_1_CODE
+          - inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_1_CATEGORY
+          - inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_2_CODE
+          - inode-51OaOYVYrlmnlR8whtg0Ko/LEVEL_2_CATEGORY
+          - inode-51OaOYVYrlmnlR8whtg0Ko/ACCOUNT
+          - inode-51OaOYVYrlmnlR8whtg0Ko/DESCRIPTION
+kind: data-model
