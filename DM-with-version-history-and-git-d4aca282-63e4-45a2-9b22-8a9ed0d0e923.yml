@@ -1,14 +1,14 @@
 dataModelId: d4aca282-63e4-45a2-9b22-8a9ed0d0e923
 name: DM with version history and git
 url: https://staging.sigmacomputing.io/creator/data-model/DM-with-version-history-and-git-6tjgAPAJifMoZTVJK5M3u3
-documentVersion: 1
-latestDocumentVersion: 1
+documentVersion: 2
+latestDocumentVersion: 2
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
-updatedBy: sMAirvLijXDoMVOXU548ttJX4jlOx
+updatedBy: SigmaGitSyncRobot
 createdAt: '2026-11-06T22:10:53.163Z'
-updatedAt: '2026-11-06T22:11:06.867Z'
+updatedAt: '2026-11-07T00:44:42.156Z'
 schemaVersion: 1
 pages:
   - id: fGw_hHves3
@@ -52,7 +52,7 @@ pages:
             formula: '[D_PRODUCT/Updated By]'
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PROPOSED_PRICE
             formula: '[D_PRODUCT/Proposed Price]'
-        name: D_PRODUCT - after creating PR . wait I am making new changes on PR
+        name: D_PRODUCT - after creating PR . wait I am making new changes on PR qweqw
         order:
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_KEY
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_NAME
