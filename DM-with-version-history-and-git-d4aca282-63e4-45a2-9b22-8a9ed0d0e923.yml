@@ -52,7 +52,7 @@ pages:
             formula: '[D_PRODUCT/Updated By]'
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PROPOSED_PRICE
             formula: '[D_PRODUCT/Proposed Price]'
-        name: D_PRODUCT - after creating PR . wait I am making new changes on PR qweqw
+        name: D_PRODUCT - after creating PR .
         order:
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_KEY
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_NAME
@@ -68,27 +68,4 @@ pages:
           - inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_AT
           - inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_BY
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PROPOSED_PRICE
-      - id: 3-WODgPOq6
-        kind: table
-        source:
-          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
-          kind: warehouse-table
-          path:
-            - RETAIL
-            - INSTACART
-            - ORDERS
-        columns:
-          - id: inode-545bYUTGe6sJdFxjvZariH/DATE
-            formula: '[ORDERS/Date]'
-            name: Date 465467
-          - id: inode-545bYUTGe6sJdFxjvZariH/QTY
-            formula: '[ORDERS/Qty]'
-            name: Qty rtrty
-          - id: inode-545bYUTGe6sJdFxjvZariH/V userId
-            formula: '[ORDERS/V User Id]'
-        name: ORDERS 2345
-        order:
-          - inode-545bYUTGe6sJdFxjvZariH/DATE
-          - inode-545bYUTGe6sJdFxjvZariH/QTY
-          - inode-545bYUTGe6sJdFxjvZariH/V userId
 kind: data-model
