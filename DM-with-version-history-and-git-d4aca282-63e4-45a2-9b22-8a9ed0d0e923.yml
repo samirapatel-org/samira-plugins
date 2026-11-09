@@ -1,14 +1,14 @@
 dataModelId: d4aca282-63e4-45a2-9b22-8a9ed0d0e923
 name: DM with version history and git
 url: https://staging.sigmacomputing.io/creator/data-model/DM-with-version-history-and-git-6tjgAPAJifMoZTVJK5M3u3
-documentVersion: 3
-latestDocumentVersion: 3
+documentVersion: 4
+latestDocumentVersion: 4
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: SigmaGitSyncRobot
 createdAt: '2026-11-06T22:10:53.163Z'
-updatedAt: '2026-11-08T22:36:49.272Z'
+updatedAt: '2026-11-09T01:36:06.595Z'
 schemaVersion: 1
 pages:
   - id: fGw_hHves3
@@ -84,6 +84,7 @@ pages:
             formula: '[ORDERS/Qty]'
           - id: inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
             formula: '[ORDERS/Unit Price]'
+            name: testing deleted column
           - id: inode-545bYUTGe6sJdFxjvZariH/V userId
             formula: '[ORDERS/V User Id]'
         name: ORDERS 2345
