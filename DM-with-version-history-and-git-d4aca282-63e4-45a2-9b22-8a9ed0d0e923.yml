@@ -1,71 +1,76 @@
 dataModelId: d4aca282-63e4-45a2-9b22-8a9ed0d0e923
 name: DM with version history and git
 url: https://staging.sigmacomputing.io/creator/data-model/DM-with-version-history-and-git-6tjgAPAJifMoZTVJK5M3u3
-documentVersion: 8
-latestDocumentVersion: 8
+documentVersion: 9
+latestDocumentVersion: 9
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: SigmaGitSyncRobot
 createdAt: '2026-11-06T22:10:53.163Z'
-updatedAt: '2026-11-10T04:20:02.070Z'
+updatedAt: '2026-11-10T04:37:27.573Z'
 schemaVersion: 1
 pages:
   - id: fGw_hHves3
     name: Page 1
     elements:
-      - id: 4KJ94T72bI
+      - id: o2d4LILz6t
         kind: table
         source:
           connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
           kind: warehouse-table
           path:
-            - RETAIL
+            - EXAMPLES
             - PLUGS_ELECTRONICS
-            - D_PRODUCT
+            - D_CUSTOMER
         columns:
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_KEY
-            formula: '[D_PRODUCT/Product Key]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_NAME
-            formula: '[D_PRODUCT/Product Name]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_TYPE
-            formula: '[D_PRODUCT/Product Type]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_FAMILY
-            formula: '[D_PRODUCT/Product Family]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_LINE
-            formula: '[D_PRODUCT/Product Line]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_GROUP
-            formula: '[D_PRODUCT/Product Group]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_DESCRIPTION
-            formula: '[D_PRODUCT/Product Description]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/SKU_NUMBER
-            formula: '[D_PRODUCT/Sku Number]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRICE
-            formula: '[D_PRODUCT/Price]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_STATUS
-            formula: '[D_PRODUCT/Product Status]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_NOTES
-            formula: '[D_PRODUCT/Product Notes]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_AT
-            formula: '[D_PRODUCT/Updated At]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_BY
-            formula: '[D_PRODUCT/Updated By]'
-          - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PROPOSED_PRICE
-            formula: '[D_PRODUCT/Proposed Price]'
-        name: D_PRODUCT - after creating PR . hjh
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
+            formula: '[D_CUSTOMER/Cust Key]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
+            formula: '[D_CUSTOMER/Cust Name]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
+            formula: '[D_CUSTOMER/Cust Address]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
+            formula: '[D_CUSTOMER/Cust City]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
+            formula: '[D_CUSTOMER/Cust State]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ZIP_CODE
+            formula: '[D_CUSTOMER/Cust Zip Code]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_COUNTY
+            formula: '[D_CUSTOMER/Cust County]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_REGION
+            formula: '[D_CUSTOMER/Cust Region]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_SINCE
+            formula: '[D_CUSTOMER/Cust Since]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_TYPE
+            formula: '[D_CUSTOMER/Cust Type]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_GENDER
+            formula: '[D_CUSTOMER/Cust Gender]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_AGE
+            formula: '[D_CUSTOMER/Cust Age]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/AGE_GROUP
+            formula: '[D_CUSTOMER/Age Group]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CIVIL_STATUS
+            formula: '[D_CUSTOMER/Civil Status]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
+            formula: '[D_CUSTOMER/Loyalty Program]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
+            formula: '[D_CUSTOMER/Cust Json Field]'
         order:
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_KEY
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_NAME
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_TYPE
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_FAMILY
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_LINE
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_GROUP
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_DESCRIPTION
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/SKU_NUMBER
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRICE
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_STATUS
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_NOTES
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_AT
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_BY
-          - inode-2UV0avm69gbwPkSHo9Q8Rm/PROPOSED_PRICE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ZIP_CODE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_COUNTY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_REGION
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_SINCE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_TYPE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_GENDER
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_AGE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/AGE_GROUP
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CIVIL_STATUS
+          - inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
 kind: data-model
