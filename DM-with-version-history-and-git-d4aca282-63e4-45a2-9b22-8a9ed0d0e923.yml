@@ -1,14 +1,14 @@
 dataModelId: d4aca282-63e4-45a2-9b22-8a9ed0d0e923
 name: DM with version history and git
 url: https://staging.sigmacomputing.io/creator/data-model/DM-with-version-history-and-git-6tjgAPAJifMoZTVJK5M3u3
-documentVersion: 7
-latestDocumentVersion: 7
+documentVersion: 8
+latestDocumentVersion: 8
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: SigmaGitSyncRobot
 createdAt: '2026-11-06T22:10:53.163Z'
-updatedAt: '2026-11-10T04:02:56.544Z'
+updatedAt: '2026-11-10T04:20:02.070Z'
 schemaVersion: 1
 pages:
   - id: fGw_hHves3
@@ -68,38 +68,4 @@ pages:
           - inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_AT
           - inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_BY
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PROPOSED_PRICE
-      - id: c2aGsbskyX
-        kind: table
-        source:
-          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
-          kind: warehouse-table
-          path:
-            - RETAIL
-            - INSTACART
-            - ORDERS
-        columns:
-          - id: inode-545bYUTGe6sJdFxjvZariH/DATE
-            formula: '[ORDERS/Date]'
-            name: NEw
-          - id: inode-545bYUTGe6sJdFxjvZariH/QTY
-            formula: '[ORDERS/Qty]'
-            name: hi
-          - id: inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
-            formula: '[ORDERS/Unit Price]'
-            name: hello
-          - id: inode-545bYUTGe6sJdFxjvZariH/V userId
-            formula: '[ORDERS/V User Id]'
-        name: Add ORDERS to delete it again
-        filters:
-          - id: r7fyIflYnL
-            columnId: inode-545bYUTGe6sJdFxjvZariH/QTY
-            kind: number-range
-            includeNulls: when-no-value-is-selected
-            min: 1
-            max: 5
-        order:
-          - inode-545bYUTGe6sJdFxjvZariH/DATE
-          - inode-545bYUTGe6sJdFxjvZariH/QTY
-          - inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
-          - inode-545bYUTGe6sJdFxjvZariH/V userId
 kind: data-model
