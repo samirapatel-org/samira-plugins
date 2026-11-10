@@ -1,14 +1,14 @@
 dataModelId: d4aca282-63e4-45a2-9b22-8a9ed0d0e923
 name: DM with version history and git
 url: https://staging.sigmacomputing.io/creator/data-model/DM-with-version-history-and-git-6tjgAPAJifMoZTVJK5M3u3
-documentVersion: 8
-latestDocumentVersion: 8
+documentVersion: 9
+latestDocumentVersion: 9
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: SigmaGitSyncRobot
 createdAt: '2026-11-06T22:10:53.163Z'
-updatedAt: '2026-11-10T04:20:02.070Z'
+updatedAt: '2026-11-10T04:37:27.573Z'
 schemaVersion: 1
 pages:
   - id: fGw_hHves3
@@ -28,12 +28,16 @@ pages:
             formula: '[D_PRODUCT/Product Key]'
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_NAME
             formula: '[D_PRODUCT/Product Name]'
+            name: I like this column
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_TYPE
             formula: '[D_PRODUCT/Product Type]'
+            name: column1
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_FAMILY
             formula: '[D_PRODUCT/Product Family]'
+            name: col;umn2
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_LINE
             formula: '[D_PRODUCT/Product Line]'
+            name: column3
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_GROUP
             formula: '[D_PRODUCT/Product Group]'
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_DESCRIPTION
@@ -52,7 +56,17 @@ pages:
             formula: '[D_PRODUCT/Updated By]'
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PROPOSED_PRICE
             formula: '[D_PRODUCT/Proposed Price]'
-        name: D_PRODUCT - after creating PR . hjh
+        name: "I like this table.\_"
+        filters:
+          - id: EPGBYi-t36
+            columnId: inode-2UV0avm69gbwPkSHo9Q8Rm/SKU_NUMBER
+            kind: list
+            mode: include
+            values:
+              - AU1080745048
+              - AU1116361482
+              - AU1293932906
+              - AU1653395705
         order:
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_KEY
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_NAME
@@ -68,4 +82,693 @@ pages:
           - inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_AT
           - inode-2UV0avm69gbwPkSHo9Q8Rm/UPDATED_BY
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PROPOSED_PRICE
+      - id: tWR-8FuKBR
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - RETAIL
+            - COMMERCE
+            - GA
+        columns:
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ISEXIT
+            formula: '[GA/Hits Isexit]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/VISITORID
+            formula: '[GA/Visitorid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_SUBCONTINENT
+            formula: '[GA/Geonetwork Subcontinent]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPMATCHEDQUERIES
+            formula: '[GA/Hits Publisher Adsensebackfilldfpmatchedqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPMATCHEDQUERIES
+            formula: '[GA/Hits Publisher Infos Adxbackfilldfpmatchedqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPVIEWABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Infos Dfpviewableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CRITERIAID
+            formula: '[GA/Trafficsource Adwordsclickinfo Criteriaid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXQUERIES
+            formula: '[GA/Hits Publisher Adxqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONACTION
+            formula: '[GA/Hits Social Socialinteractionaction]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_OPERATINGSYSTEM
+            formula: '[GA/Device Operatingsystem]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPMEASURABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Infos Dfpmeasurableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_REGION
+            formula: '[GA/Geonetwork Region]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TRANSACTIONS
+            formula: '[GA/Totals Transactions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TIME
+            formula: '[GA/Hits Time]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXPAGESVIEWED
+            formula: '[GA/Hits Publisher Infos Adxpagesviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_PAGE
+            formula: '[GA/Trafficsource Adwordsclickinfo Page]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPMEASURABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Adxbackfilldfpmeasurableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_ADNETWORKTYPE
+            formula: '[GA/Trafficsource Adwordsclickinfo Adnetworktype]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_COUNTRY
+            formula: '[GA/Geonetwork Country]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPQUERIES
+            formula: '[GA/Hits Publisher Adsensebackfilldfpqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXMATCHEDQUERIES
+            formula: '[GA/Hits Publisher Adxmatchedqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/VISITID
+            formula: '[GA/Visitid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_USERTIMINGSAMPLE
+            formula: '[GA/Hits Latencytracking Usertimingsample]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONNETWORKACTION
+            formula: '[GA/Hits Social Socialinteractionnetworkaction]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPIMPRESSIONS
+            formula: '[GA/Hits Publisher Adsensebackfilldfpimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TRANSACTIONREVENUE
+            formula: '[GA/Totals Transactionrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/USERID
+            formula: '[GA/Userid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_CURRENCYCODE
+            formula: '[GA/Hits Transaction Currencycode]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_PAGEVIEWS
+            formula: '[GA/Totals Pageviews]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CREATIVEID
+            formula: '[GA/Trafficsource Adwordsclickinfo Creativeid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/FULLVISITORID
+            formula: '[GA/Fullvisitorid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_PAGEPATHLEVEL1
+            formula: '[GA/Hits Page Pagepathlevel 1]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_DOMLATENCYMETRICSSAMPLE
+            formula: '[GA/Hits Latencytracking Domlatencymetricssample]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/START_TIME
+            formula: '[GA/Start Time]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_PRODUCTSKU
+            formula: '[GA/Hits Item Productsku]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPPAGESVIEWED
+            formula: '[GA/Hits Publisher Adsensebackfilldfppagesviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEDEVICEINFO
+            formula: '[GA/Device Mobiledeviceinfo]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/SOCIALENGAGEMENTTYPE
+            formula: '[GA/Socialengagementtype]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_ADGROUPID
+            formula: '[GA/Trafficsource Adwordsclickinfo Adgroupid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_NETWORKDOMAIN
+            formula: '[GA/Geonetwork Networkdomain]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_VIEWABLEADSVIEWED
+            formula: '[GA/Hits Publisher Infos Viewableadsviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPNETWORKID
+            formula: '[GA/Hits Publisher Infos Dfpnetworkid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPMEASURABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Infos Adsensebackfilldfpmeasurableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSPAGESVIEWED
+            formula: '[GA/Hits Publisher Infos Adspagesviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_DEVICECATEGORY
+            formula: '[GA/Device Devicecategory]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_DOMAINLOOKUPTIME
+            formula: '[GA/Hits Latencytracking Domainlookuptime]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_OPERATINGSYSTEMVERSION
+            formula: '[GA/Device Operatingsystemversion]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TOTALTRANSACTIONREVENUE
+            formula: '[GA/Totals Totaltransactionrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_ITEMQUANTITY
+            formula: '[GA/Hits Item Itemquantity]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_PAGELOADSAMPLE
+            formula: '[GA/Hits Latencytracking Pageloadsample]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_ITEMREVENUE
+            formula: '[GA/Hits Item Itemrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPMATCHEDQUERIES
+            formula: '[GA/Hits Publisher Infos Adsensebackfilldfpmatchedqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_EVENTINFO_EVENTVALUE
+            formula: '[GA/Hits Eventinfo Eventvalue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_SLOT
+            formula: '[GA/Trafficsource Adwordsclickinfo Slot]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_MEASURABLEADSVIEWED
+            formula: '[GA/Hits Publisher Infos Measurableadsviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPADGROUP
+            formula: '[GA/Hits Publisher Infos Dfpadgroup]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_EVENTINFO_EVENTCATEGORY
+            formula: '[GA/Hits Eventinfo Eventcategory]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_KEYWORD
+            formula: '[GA/Trafficsource Keyword]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CAMPAIGNID
+            formula: '[GA/Trafficsource Adwordsclickinfo Campaignid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPIMPRESSIONS
+            formula: '[GA/Hits Publisher Infos Dfpimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_NEWVISITS
+            formula: '[GA/Totals Newvisits]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_VIEWABLEADSVIEWED
+            formula: '[GA/Hits Publisher Viewableadsviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_SOURCE
+            formula: '[GA/Trafficsource Source]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_EXITSCREENNAME
+            formula: '[GA/Hits Appinfo Exitscreenname]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_SCREENRESOLUTION
+            formula: '[GA/Device Screenresolution]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_JAVAENABLED
+            formula: '[GA/Device Javaenabled]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_BROWSER
+            formula: '[GA/Device Browser]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXREVENUE
+            formula: '[GA/Hits Publisher Adxrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPQUERIES
+            formula: '[GA/Hits Publisher Infos Dfpqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_PAGEDOWNLOADTIME
+            formula: '[GA/Hits Latencytracking Pagedownloadtime]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ECOMMERCEACTION_STEP
+            formula: '[GA/Hits Ecommerceaction Step]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXQUERIES
+            formula: '[GA/Hits Publisher Infos Adxqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_NAME
+            formula: '[GA/Hits Appinfo Name]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_PAGETITLE
+            formula: '[GA/Hits Page Pagetitle]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_USERTIMINGVALUE
+            formula: '[GA/Hits Latencytracking Usertimingvalue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_SEARCHKEYWORD
+            formula: '[GA/Hits Page Searchkeyword]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_UNIQUESOCIALINTERACTIONS
+            formula: '[GA/Hits Social Uniquesocialinteractions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_APPINSTALLERID
+            formula: '[GA/Hits Appinfo Appinstallerid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TIMEONSITE
+            formula: '[GA/Totals Timeonsite]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_LATITUDE
+            formula: '[GA/Geonetwork Latitude]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_APPVERSION
+            formula: '[GA/Hits Appinfo Appversion]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPMATCHEDQUERIES
+            formula: '[GA/Hits Publisher Infos Dfpmatchedqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSPAGESVIEWED
+            formula: '[GA/Hits Publisher Adspagesviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEDEVICEBRANDING
+            formula: '[GA/Device Mobiledevicebranding]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPVIEWABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Infos Adsensebackfilldfpviewableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONID
+            formula: '[GA/Hits Transaction Transactionid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONSHIPPING
+            formula: '[GA/Hits Transaction Transactionshipping]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_PRODUCTNAME
+            formula: '[GA/Hits Item Productname]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_HOUR
+            formula: '[GA/Hits Hour]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPQUERIES
+            formula: '[GA/Hits Publisher Infos Adxbackfilldfpqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_BROWSERSIZE
+            formula: '[GA/Device Browsersize]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_BROWSERVERSION
+            formula: '[GA/Device Browserversion]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPIMPRESSIONS
+            formula: '[GA/Hits Publisher Adxbackfilldfpimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_PAGELOADTIME
+            formula: '[GA/Hits Latencytracking Pageloadtime]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPIMPRESSIONS
+            formula: '[GA/Hits Publisher Dfpimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXPAGESVIEWED
+            formula: '[GA/Hits Publisher Adxpagesviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPPAGESVIEWED
+            formula: '[GA/Hits Publisher Infos Dfppagesviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_SERVERCONNECTIONTIME
+            formula: '[GA/Hits Latencytracking Serverconnectiontime]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPCLICKS
+            formula: '[GA/Hits Publisher Adxbackfilldfpclicks]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPNETWORKID
+            formula: '[GA/Hits Publisher Dfpnetworkid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_EVENTINFO_EVENTLABEL
+            formula: '[GA/Hits Eventinfo Eventlabel]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_CITYID
+            formula: '[GA/Geonetwork Cityid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXCLICKS
+            formula: '[GA/Hits Publisher Infos Adxclicks]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ISTRUEDIRECT
+            formula: '[GA/Trafficsource Istruedirect]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPPAGESVIEWED
+            formula: '[GA/Hits Publisher Adxbackfilldfppagesviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_LOCALTRANSACTIONREVENUE
+            formula: '[GA/Hits Transaction Localtransactionrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPMEASURABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Infos Adxbackfilldfpmeasurableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSCLICKED
+            formula: '[GA/Hits Publisher Adsclicked]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXVIEWABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Adxviewableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_VISITS
+            formula: '[GA/Totals Visits]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_REDIRECTIONTIME
+            formula: '[GA/Hits Latencytracking Redirectiontime]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPMEASURABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Adsensebackfilldfpmeasurableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_VERSION
+            formula: '[GA/Hits Appinfo Version]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_SCREENNAME
+            formula: '[GA/Hits Appinfo Screenname]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_MEASURABLEADSVIEWED
+            formula: '[GA/Hits Publisher Measurableadsviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPQUERIES
+            formula: '[GA/Hits Publisher Infos Adsensebackfilldfpqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_SERVERRESPONSETIME
+            formula: '[GA/Hits Latencytracking Serverresponsetime]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DATE
+            formula: '[GA/Date]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_CONTENTINFO_CONTENTDESCRIPTION
+            formula: '[GA/Hits Contentinfo Contentdescription]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_GCLID
+            formula: '[GA/Trafficsource Adwordsclickinfo Gclid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_BOUNCES
+            formula: '[GA/Totals Bounces]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONTAX
+            formula: '[GA/Hits Transaction Transactiontax]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_AFFILIATION
+            formula: '[GA/Hits Transaction Affiliation]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSUNITSVIEWED
+            formula: '[GA/Hits Publisher Adsunitsviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_SCREENCOLORS
+            formula: '[GA/Device Screencolors]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXMATCHEDQUERIES
+            formula: '[GA/Hits Publisher Infos Adxmatchedqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_ID
+            formula: '[GA/Hits Appinfo Id]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONNETWORK
+            formula: '[GA/Hits Social Socialinteractionnetwork]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_APPNAME
+            formula: '[GA/Hits Appinfo Appname]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPVIEWABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Adxbackfilldfpviewableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_EVENTINFO_EVENTACTION
+            formula: '[GA/Hits Eventinfo Eventaction]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_CITY
+            formula: '[GA/Geonetwork City]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONS
+            formula: '[GA/Hits Social Socialinteractions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEDEVICEMARKETINGNAME
+            formula: '[GA/Device Mobiledevicemarketingname]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPREVENUECPM
+            formula: '[GA/Hits Publisher Infos Adsensebackfilldfprevenuecpm]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPPAGESVIEWED
+            formula: '[GA/Hits Publisher Dfppagesviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CUSTOMERID
+            formula: '[GA/Trafficsource Adwordsclickinfo Customerid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXREVENUE
+            formula: '[GA/Hits Publisher Infos Adxrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPADUNITS
+            formula: '[GA/Hits Publisher Dfpadunits]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_SCREENVIEWS
+            formula: '[GA/Totals Screenviews]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_HOSTNAME
+            formula: '[GA/Hits Page Hostname]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_NETWORKLOCATION
+            formula: '[GA/Geonetwork Networklocation]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSVIEWED
+            formula: '[GA/Hits Publisher Adsviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXIMPRESSIONS
+            formula: '[GA/Hits Publisher Infos Adximpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_LANDINGSCREENNAME
+            formula: '[GA/Hits Appinfo Landingscreenname]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPIMPRESSIONS
+            formula: '[GA/Hits Publisher Infos Adsensebackfilldfpimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADCONTENT
+            formula: '[GA/Trafficsource Adcontent]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_MINUTE
+            formula: '[GA/Hits Minute]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TIMEONSCREEN
+            formula: '[GA/Totals Timeonscreen]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_CAMPAIGNCODE
+            formula: '[GA/Trafficsource Campaigncode]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ISINTERACTION
+            formula: '[GA/Hits Isinteraction]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPADGROUP
+            formula: '[GA/Hits Publisher Dfpadgroup]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPMATCHEDQUERIES
+            formula: '[GA/Hits Publisher Adxbackfilldfpmatchedqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_PAGEPATH
+            formula: '[GA/Hits Page Pagepath]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSVIEWED
+            formula: '[GA/Hits Publisher Infos Adsviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/VISITNUMBER
+            formula: '[GA/Visitnumber]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPADUNITS
+            formula: '[GA/Hits Publisher Infos Dfpadunits]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPIMPRESSIONS
+            formula: '[GA/Hits Publisher Infos Adxbackfilldfpimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONTARGET
+            formula: '[GA/Hits Social Socialinteractiontarget]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXMEASURABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Adxmeasurableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_PRODUCTCATEGORY
+            formula: '[GA/Hits Item Productcategory]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CRITERIAPARAMETERS
+            formula: '[GA/Trafficsource Adwordsclickinfo Criteriaparameters]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_LOCALITEMREVENUE
+            formula: '[GA/Hits Item Localitemrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPREVENUECPM
+            formula: '[GA/Hits Publisher Infos Adxbackfilldfprevenuecpm]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_UNIQUESCREENVIEWS
+            formula: '[GA/Totals Uniquescreenviews]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSUNITSMATCHED
+            formula: '[GA/Hits Publisher Adsunitsmatched]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ISENTRANCE
+            formula: '[GA/Hits Isentrance]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXIMPRESSIONS
+            formula: '[GA/Hits Publisher Adximpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_CAMPAIGN
+            formula: '[GA/Trafficsource Campaign]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXCLICKS
+            formula: '[GA/Hits Publisher Adxclicks]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPREVENUECPC
+            formula: '[GA/Hits Publisher Adxbackfilldfprevenuecpc]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPREVENUECPC
+            formula: '[GA/Hits Publisher Infos Adxbackfilldfprevenuecpc]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_LONGITUDE
+            formula: '[GA/Geonetwork Longitude]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_REFUND_REFUNDAMOUNT
+            formula: '[GA/Hits Refund Refundamount]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_USERTIMINGVARIABLE
+            formula: '[GA/Hits Latencytracking Usertimingvariable]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPCLICKS
+            formula: '[GA/Hits Publisher Adsensebackfilldfpclicks]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPPAGESVIEWED
+            formula: '[GA/Hits Publisher Infos Adsensebackfilldfppagesviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONCOUPON
+            formula: '[GA/Hits Transaction Transactioncoupon]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPVIEWABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Adsensebackfilldfpviewableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ECOMMERCEACTION_OPTION
+            formula: '[GA/Hits Ecommerceaction Option]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPCLICKS
+            formula: '[GA/Hits Publisher Dfpclicks]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEDEVICEMODEL
+            formula: '[GA/Device Mobiledevicemodel]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_APPID
+            formula: '[GA/Hits Appinfo Appid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALNETWORK
+            formula: '[GA/Hits Social Socialnetwork]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_ISVIDEOAD
+            formula: '[GA/Trafficsource Adwordsclickinfo Isvideoad]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_HITS
+            formula: '[GA/Totals Hits]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPCLICKS
+            formula: '[GA/Hits Publisher Infos Adsensebackfilldfpclicks]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPMEASURABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Dfpmeasurableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_HITNUMBER
+            formula: '[GA/Hits Hitnumber]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_DOMINTERACTIVETIME
+            formula: '[GA/Hits Latencytracking Dominteractivetime]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_LANGUAGE
+            formula: '[GA/Device Language]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/VISITSTARTTIME
+            formula: '[GA/Visitstarttime]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_CONTINENT
+            formula: '[GA/Geonetwork Continent]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_SESSIONQUALITYDIM
+            formula: '[GA/Totals Sessionqualitydim]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_REFERER
+            formula: '[GA/Hits Referer]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_METRO
+            formula: '[GA/Geonetwork Metro]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_REFERRALPATH
+            formula: '[GA/Trafficsource Referralpath]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPREVENUECPC
+            formula: '[GA/Hits Publisher Infos Dfprevenuecpc]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPREVENUECPM
+            formula: '[GA/Hits Publisher Adsensebackfilldfprevenuecpm]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPREVENUECPC
+            formula: '[GA/Hits Publisher Adsensebackfilldfprevenuecpc]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPREVENUECPC
+            formula: '[GA/Hits Publisher Infos Adsensebackfilldfprevenuecpc]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPREVENUECPM
+            formula: '[GA/Hits Publisher Infos Dfprevenuecpm]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSUNITSVIEWED
+            formula: '[GA/Hits Publisher Infos Adsunitsviewed]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPREVENUECPC
+            formula: '[GA/Hits Publisher Dfprevenuecpc]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_SEARCHCATEGORY
+            formula: '[GA/Hits Page Searchcategory]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_INSTALLERID
+            formula: '[GA/Hits Appinfo Installerid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSREVENUE
+            formula: '[GA/Hits Publisher Infos Adsrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_CURRENCYCODE
+            formula: '[GA/Hits Item Currencycode]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_ISMOBILE
+            formula: '[GA/Device Ismobile]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPQUERIES
+            formula: '[GA/Hits Publisher Adxbackfilldfpqueries]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSREVENUE
+            formula: '[GA/Hits Publisher Adsrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ECOMMERCEACTION_ACTION_TYPE
+            formula: '[GA/Hits Ecommerceaction Action Type]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ISSECURE
+            formula: '[GA/Hits Issecure]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_HASSOCIALSOURCEREFERRAL
+            formula: '[GA/Hits Social Hassocialsourcereferral]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_TARGETINGCRITERIA_BOOMUSERLISTID
+            formula: '[GA/Trafficsource Adwordsclickinfo Targetingcriteria Boomuserlistid]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_MEDIUM
+            formula: '[GA/Trafficsource Medium]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONREVENUE
+            formula: '[GA/Hits Transaction Transactionrevenue]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPCLICKS
+            formula: '[GA/Hits Publisher Infos Adxbackfilldfpclicks]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEINPUTSELECTOR
+            formula: '[GA/Device Mobileinputselector]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSUNITSMATCHED
+            formula: '[GA/Hits Publisher Infos Adsunitsmatched]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPVIEWABLEIMPRESSIONS
+            formula: '[GA/Hits Publisher Dfpviewableimpressions]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPCLICKS
+            formula: '[GA/Hits Publisher Infos Dfpclicks]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/CHANNELGROUPING
+            formula: '[GA/Channelgrouping]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPREVENUECPM
+            formula: '[GA/Hits Publisher Dfprevenuecpm]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_FLASHVERSION
+            formula: '[GA/Device Flashversion]'
+          - id: inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSCLICKED
+            formula: '[GA/Hits Publisher Infos Adsclicked]'
+        order:
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ISEXIT
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/VISITORID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_SUBCONTINENT
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPMATCHEDQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPMATCHEDQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPVIEWABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CRITERIAID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONACTION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_OPERATINGSYSTEM
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPMEASURABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_REGION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TRANSACTIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXPAGESVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_PAGE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPMEASURABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_ADNETWORKTYPE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_COUNTRY
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXMATCHEDQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/VISITID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_USERTIMINGSAMPLE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONNETWORKACTION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TRANSACTIONREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/USERID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_CURRENCYCODE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_PAGEVIEWS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CREATIVEID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/FULLVISITORID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_PAGEPATHLEVEL1
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_DOMLATENCYMETRICSSAMPLE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/START_TIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_PRODUCTSKU
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPPAGESVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEDEVICEINFO
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/SOCIALENGAGEMENTTYPE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_ADGROUPID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_NETWORKDOMAIN
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_VIEWABLEADSVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPNETWORKID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPMEASURABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSPAGESVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_DEVICECATEGORY
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_DOMAINLOOKUPTIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_OPERATINGSYSTEMVERSION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TOTALTRANSACTIONREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_ITEMQUANTITY
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_PAGELOADSAMPLE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_ITEMREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPMATCHEDQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_EVENTINFO_EVENTVALUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_SLOT
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_MEASURABLEADSVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPADGROUP
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_EVENTINFO_EVENTCATEGORY
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_KEYWORD
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CAMPAIGNID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_NEWVISITS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_VIEWABLEADSVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_SOURCE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_EXITSCREENNAME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_SCREENRESOLUTION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_JAVAENABLED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_BROWSER
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_PAGEDOWNLOADTIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ECOMMERCEACTION_STEP
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_NAME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_PAGETITLE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_USERTIMINGVALUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_SEARCHKEYWORD
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_UNIQUESOCIALINTERACTIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_APPINSTALLERID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TIMEONSITE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_LATITUDE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_APPVERSION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPMATCHEDQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSPAGESVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEDEVICEBRANDING
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPVIEWABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONSHIPPING
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_PRODUCTNAME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_HOUR
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_BROWSERSIZE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_BROWSERVERSION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_PAGELOADTIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXPAGESVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPPAGESVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_SERVERCONNECTIONTIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPCLICKS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPNETWORKID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_EVENTINFO_EVENTLABEL
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_CITYID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXCLICKS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ISTRUEDIRECT
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPPAGESVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_LOCALTRANSACTIONREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPMEASURABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSCLICKED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXVIEWABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_VISITS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_REDIRECTIONTIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPMEASURABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_VERSION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_SCREENNAME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_MEASURABLEADSVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_SERVERRESPONSETIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DATE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_CONTENTINFO_CONTENTDESCRIPTION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_GCLID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_BOUNCES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONTAX
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_AFFILIATION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSUNITSVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_SCREENCOLORS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXMATCHEDQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_ID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONNETWORK
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_APPNAME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPVIEWABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_EVENTINFO_EVENTACTION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_CITY
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEDEVICEMARKETINGNAME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPREVENUECPM
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPPAGESVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CUSTOMERID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPADUNITS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_SCREENVIEWS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_HOSTNAME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_NETWORKLOCATION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_LANDINGSCREENNAME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADCONTENT
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_MINUTE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_TIMEONSCREEN
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_CAMPAIGNCODE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ISINTERACTION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPADGROUP
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPMATCHEDQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_PAGEPATH
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/VISITNUMBER
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPADUNITS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALINTERACTIONTARGET
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXMEASURABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_PRODUCTCATEGORY
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_CRITERIAPARAMETERS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_LOCALITEMREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPREVENUECPM
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_UNIQUESCREENVIEWS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSUNITSMATCHED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ISENTRANCE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_CAMPAIGN
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXCLICKS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPREVENUECPC
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPREVENUECPC
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_LONGITUDE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_REFUND_REFUNDAMOUNT
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_USERTIMINGVARIABLE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPCLICKS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPPAGESVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONCOUPON
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPVIEWABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ECOMMERCEACTION_OPTION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPCLICKS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEDEVICEMODEL
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_APPID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_SOCIALNETWORK
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_ISVIDEOAD
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_HITS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPCLICKS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPMEASURABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_HITNUMBER
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_LATENCYTRACKING_DOMINTERACTIVETIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_LANGUAGE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/VISITSTARTTIME
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_CONTINENT
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TOTALS_SESSIONQUALITYDIM
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_REFERER
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/GEONETWORK_METRO
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_REFERRALPATH
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPREVENUECPC
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPREVENUECPM
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSENSEBACKFILLDFPREVENUECPC
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSENSEBACKFILLDFPREVENUECPC
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPREVENUECPM
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSUNITSVIEWED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPREVENUECPC
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PAGE_SEARCHCATEGORY
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_APPINFO_INSTALLERID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ITEM_CURRENCYCODE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_ISMOBILE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADXBACKFILLDFPQUERIES
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_ADSREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ECOMMERCEACTION_ACTION_TYPE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_ISSECURE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_SOCIAL_HASSOCIALSOURCEREFERRAL
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_ADWORDSCLICKINFO_TARGETINGCRITERIA_BOOMUSERLISTID
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/TRAFFICSOURCE_MEDIUM
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_TRANSACTION_TRANSACTIONREVENUE
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADXBACKFILLDFPCLICKS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_MOBILEINPUTSELECTOR
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSUNITSMATCHED
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPVIEWABLEIMPRESSIONS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_DFPCLICKS
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/CHANNELGROUPING
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_DFPREVENUECPM
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/DEVICE_FLASHVERSION
+          - inode-3NBbfiAbCeSn1d7I5KWH7N/HITS_PUBLISHER_INFOS_ADSCLICKED
 kind: data-model
