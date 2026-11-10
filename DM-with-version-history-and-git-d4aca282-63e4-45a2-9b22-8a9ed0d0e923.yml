@@ -1,14 +1,14 @@
 dataModelId: d4aca282-63e4-45a2-9b22-8a9ed0d0e923
 name: DM with version history and git
 url: https://staging.sigmacomputing.io/creator/data-model/DM-with-version-history-and-git-6tjgAPAJifMoZTVJK5M3u3
-documentVersion: 6
-latestDocumentVersion: 6
+documentVersion: 7
+latestDocumentVersion: 7
 ownerId: sMAirvLijXDoMVOXU548ttJX4jlOx
 folderId: 555d31a2-2409-4ee9-8c0f-a400793da285
 createdBy: sMAirvLijXDoMVOXU548ttJX4jlOx
 updatedBy: SigmaGitSyncRobot
 createdAt: '2026-11-06T22:10:53.163Z'
-updatedAt: '2026-11-10T03:38:42.616Z'
+updatedAt: '2026-11-10T04:02:56.544Z'
 schemaVersion: 1
 pages:
   - id: fGw_hHves3
@@ -80,13 +80,26 @@ pages:
         columns:
           - id: inode-545bYUTGe6sJdFxjvZariH/DATE
             formula: '[ORDERS/Date]'
+            name: Hellooo
           - id: inode-545bYUTGe6sJdFxjvZariH/QTY
             formula: '[ORDERS/Qty]'
+            name: how
           - id: inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
             formula: '[ORDERS/Unit Price]'
+            name: are
           - id: inode-545bYUTGe6sJdFxjvZariH/V userId
             formula: '[ORDERS/V User Id]'
+            name: you
         name: Add ORDERS to delete it again
+        filters:
+          - id: xK_eccgS50
+            columnId: inode-545bYUTGe6sJdFxjvZariH/DATE
+            kind: date-range
+            mode: last
+            value: 2
+            unit: day
+            includeToday: true
+            includeNulls: when-no-value-is-selected
         order:
           - inode-545bYUTGe6sJdFxjvZariH/DATE
           - inode-545bYUTGe6sJdFxjvZariH/QTY
