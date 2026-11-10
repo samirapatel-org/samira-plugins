@@ -52,7 +52,7 @@ pages:
             formula: '[D_PRODUCT/Updated By]'
           - id: inode-2UV0avm69gbwPkSHo9Q8Rm/PROPOSED_PRICE
             formula: '[D_PRODUCT/Proposed Price]'
-        name: D_PRODUCT - after creating PR .
+        name: D_PRODUCT - after creating PR . hjh
         order:
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_KEY
           - inode-2UV0avm69gbwPkSHo9Q8Rm/PRODUCT_NAME
