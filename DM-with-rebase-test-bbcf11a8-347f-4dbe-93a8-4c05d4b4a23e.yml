@@ -1,46 +1,19 @@
 dataModelId: bbcf11a8-347f-4dbe-93a8-4c05d4b4a23e
 name: DM with rebase test
 url: http://127.0.0.1:3000/sigma-computing1/data-model/DM-with-rebase-test-5Ioc99Z0hN5vEa2EJyMKDk
-documentVersion: 4
-latestDocumentVersion: 4
+documentVersion: 5
+latestDocumentVersion: 5
 ownerId: Edzt8gtpG0sdAXjYW8mWUyl7byoad
 folderId: d5964253-44c7-41f1-928f-00174578c094
 createdBy: Edzt8gtpG0sdAXjYW8mWUyl7byoad
 updatedBy: SigmaGitSyncRobot
 createdAt: '2026-11-10T19:55:16.385Z'
-updatedAt: '2026-11-10T20:02:01.907Z'
+updatedAt: '2026-11-10T20:04:14.800Z'
 schemaVersion: 1
 pages:
   - id: nZHNNwijqV
     name: Page 1
     elements:
-      - id: Yu2lHiF27X
-        kind: table
-        source:
-          connectionId: 4e7b9e00-aabe-483e-933b-4c1f6f6fd17b
-          kind: warehouse-table
-          path:
-            - EXAMPLES
-            - CENSUS
-            - CENSUS
-        columns:
-          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
-            formula: '[CENSUS/Fips]'
-          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
-            formula: '[CENSUS/County]'
-          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
-            formula: '[CENSUS/State]'
-          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
-            formula: '[CENSUS/Population 2000]'
-          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
-            formula: '[CENSUS/Population 2010]'
-        name: CENSUS - added new table
-        order:
-          - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
-          - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
-          - inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
-          - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
-          - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
       - id: 0f2uf7b31H
         kind: table
         source:
