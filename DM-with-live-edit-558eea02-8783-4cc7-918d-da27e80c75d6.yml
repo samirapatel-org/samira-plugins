@@ -1,14 +1,14 @@
 dataModelId: 558eea02-8783-4cc7-918d-da27e80c75d6
 name: DM with live edit
 url: http://127.0.0.1:3000/sigma-computing1/data-model/DM-with-live-edit-2BrETXTp1u1NYrXNyFh5Ou
-documentVersion: 1
-latestDocumentVersion: 1
+documentVersion: 2
+latestDocumentVersion: 2
 ownerId: Edzt8gtpG0sdAXjYW8mWUyl7byoad
 folderId: d5964253-44c7-41f1-928f-00174578c094
 createdBy: Edzt8gtpG0sdAXjYW8mWUyl7byoad
-updatedBy: Edzt8gtpG0sdAXjYW8mWUyl7byoad
+updatedBy: SigmaGitSyncRobot
 createdAt: '2026-11-02T20:26:18.446Z'
-updatedAt: '2026-11-02T20:34:41.382Z'
+updatedAt: '2026-11-02T22:45:16.706Z'
 schemaVersion: 1
 pages:
   - id: JScCREox9x
