@@ -19,7 +19,7 @@ pages:
             formula: '[D_PRODUCT/Product Key]'
           - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
             formula: '[D_PRODUCT/Product Name]'
-        name: D_PRODUCT 123
+        name: new PR
         order:
           - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
           - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
@@ -65,7 +65,7 @@ pages:
             formula: '[D_CUSTOMER/Loyalty Program]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
             formula: '[D_CUSTOMER/Cust Json Field]'
-        name: some unstaged changes nice I see it. I want to see live edit
+        name: some unstaged changes nice I see it. I want to see ffsdfw edit
         order:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
