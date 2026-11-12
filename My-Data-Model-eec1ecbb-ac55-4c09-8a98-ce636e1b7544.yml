@@ -19,7 +19,7 @@ pages:
             formula: '[D_PRODUCT/Product Key]'
           - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
             formula: '[D_PRODUCT/Product Name]'
-        name: D_PRODUCT new change
+        name: D_PRODUCT new change one more chanhe
         order:
           - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
           - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
