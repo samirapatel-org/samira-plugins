@@ -1,0 +1,26 @@
+dataModelId: eec1ecbb-ac55-4c09-8a98-ce636e1b7544
+name: My Data Model
+schemaVersion: 1
+pages:
+  - id: ckybiTjJCN
+    name: Page 1
+    elements:
+      - id: 4Jr-UjBB4H
+        kind: table
+        source:
+          connectionId: 34da9758-4eca-430b-a2a7-253c10ed47b7
+          kind: warehouse-table
+          path:
+            - ALEXIS
+            - PUBLIC
+            - D_PRODUCT
+        columns:
+          - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
+            formula: '[D_PRODUCT/Product Key]'
+          - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
+            formula: '[D_PRODUCT/Product Name]'
+        name: D_PRODUCT new change
+        order:
+          - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
+          - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
+kind: data-model
