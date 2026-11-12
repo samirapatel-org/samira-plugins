@@ -6,7 +6,7 @@ pages:
     name: Sales
     elements:
       - id: el-sales
-        kind: table
+        kind: tabel
         source:
           connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
           kind: warehouse-table
