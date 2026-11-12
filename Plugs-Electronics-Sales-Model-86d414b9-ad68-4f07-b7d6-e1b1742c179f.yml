@@ -1,0 +1,117 @@
+dataModelId: 86d414b9-ad68-4f07-b7d6-e1b1742c179f
+name: Plugs Electronics Sales Model
+schemaVersion: 1
+pages:
+  - id: page-sales
+    name: Sales
+    elements:
+      - id: el-sales
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - EXAMPLES
+            - PLUGS_ELECTRONICS
+            - F_SALES
+        columns:
+          - id: inode-6vckuM7tbB7FSkinPUgmfO/ORDER_NUMBER
+            formula: '[F_SALES/Order Number]'
+          - id: inode-6vckuM7tbB7FSkinPUgmfO/CUST_KEY
+            formula: '[F_SALES/Cust Key]'
+          - id: inode-6vckuM7tbB7FSkinPUgmfO/STORE_KEY
+            formula: '[F_SALES/Store Key]'
+          - id: inode-6vckuM7tbB7FSkinPUgmfO/TRANSACTION_TYPE
+            formula: '[F_SALES/Transaction Type]'
+          - id: inode-6vckuM7tbB7FSkinPUgmfO/DATE
+            formula: '[F_SALES/Date]'
+          - id: inode-6vckuM7tbB7FSkinPUgmfO/PURCHASE_METHOD
+            formula: '[F_SALES/Purchase Method]'
+          - id: calc-order-month
+            formula: DateTrunc("month", [Date])
+            name: Order Month
+        name: Sales - first PR
+        order:
+          - inode-6vckuM7tbB7FSkinPUgmfO/ORDER_NUMBER
+          - inode-6vckuM7tbB7FSkinPUgmfO/CUST_KEY
+          - inode-6vckuM7tbB7FSkinPUgmfO/STORE_KEY
+          - inode-6vckuM7tbB7FSkinPUgmfO/TRANSACTION_TYPE
+          - inode-6vckuM7tbB7FSkinPUgmfO/DATE
+          - inode-6vckuM7tbB7FSkinPUgmfO/PURCHASE_METHOD
+          - calc-order-month
+      - id: el-customer
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - EXAMPLES
+            - PLUGS_ELECTRONICS
+            - D_CUSTOMER
+        columns:
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
+            formula: '[D_CUSTOMER/Cust Key]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
+            formula: '[D_CUSTOMER/Cust Name]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
+            formula: '[D_CUSTOMER/Cust City]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
+            formula: '[D_CUSTOMER/Cust State]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_REGION
+            formula: '[D_CUSTOMER/Cust Region]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_SINCE
+            formula: '[D_CUSTOMER/Cust Since]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_TYPE
+            formula: '[D_CUSTOMER/Cust Type]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/AGE_GROUP
+            formula: '[D_CUSTOMER/Age Group]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
+            formula: '[D_CUSTOMER/Loyalty Program]'
+        name: Customers
+        order:
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_REGION
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_SINCE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_TYPE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/AGE_GROUP
+          - inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
+      - id: el-store
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - EXAMPLES
+            - PLUGS_ELECTRONICS
+            - D_STORE
+        columns:
+          - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_KEY
+            formula: '[D_STORE/Store Key]'
+          - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_NAME
+            formula: '[D_STORE/Store Name]'
+          - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_CITY
+            formula: '[D_STORE/Store City]'
+          - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_STATE
+            formula: '[D_STORE/Store State]'
+          - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_REGION
+            formula: '[D_STORE/Store Region]'
+          - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_OPEN_DATE
+            formula: '[D_STORE/Store Open Date]'
+          - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_SIZE
+            formula: '[D_STORE/Store Size]'
+          - id: inode-6qRsgXfXpWFuoOK3aH9WWW/ONLINE_ORDERING
+            formula: '[D_STORE/Online Ordering]'
+        name: "Stores\_"
+        order:
+          - inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_KEY
+          - inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_NAME
+          - inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_CITY
+          - inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_STATE
+          - inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_REGION
+          - inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_OPEN_DATE
+          - inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_SIZE
+          - inode-6qRsgXfXpWFuoOK3aH9WWW/ONLINE_ORDERING
+kind: data-model
