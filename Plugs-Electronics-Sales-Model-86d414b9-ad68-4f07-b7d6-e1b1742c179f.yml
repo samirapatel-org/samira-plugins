@@ -28,7 +28,7 @@ pages:
           - id: inode-6vckuM7tbB7FSkinPUgmfO/PURCHASE_METHOD
             formula: '[F_SALES/Purchase Method]'
           - id: calc-order-month
-            formula: DateTrunc("month", [Date])
+            formula: DateTrunc("month", [Order Date Missing])
             name: Order Month
         name: Sales - first PR
         order:
