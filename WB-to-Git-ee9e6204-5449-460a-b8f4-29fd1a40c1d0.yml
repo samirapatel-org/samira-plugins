@@ -1,0 +1,40 @@
+workbookId: ee9e6204-5449-460a-b8f4-29fd1a40c1d0
+name: WB to Git
+document:
+  schemaVersion: 1
+  elements:
+    - id: FKcg3Paz9U
+      kind: table
+      source:
+        connectionId: 4e7b9e00-aabe-483e-933b-4c1f6f6fd17b
+        kind: warehouse-table
+        path:
+          - EXAMPLES
+          - CENSUS
+          - CENSUS
+      columns:
+        - id: inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
+          formula: '[CENSUS/Fips]'
+        - id: inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
+          formula: '[CENSUS/County]'
+        - id: inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
+          formula: '[CENSUS/State]'
+        - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
+          formula: '[CENSUS/Population 2000]'
+        - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
+          formula: '[CENSUS/Population 2010]'
+      order:
+        - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
+        - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
+        - inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
+        - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
+        - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
+  pages:
+    - id: 45kQuWmlNM
+      name: Page 1
+  kind: workbook
+  layout: |
+    <?xml version="1.0" encoding="utf-8"?>
+    <Page type="grid" gridTemplateColumns="repeat(24, 1fr)" gridTemplateRows="auto" id="45kQuWmlNM">
+      <Element elementId="FKcg3Paz9U" gridColumn="1 / 25" gridRow="1 / 21"/>
+    </Page>
