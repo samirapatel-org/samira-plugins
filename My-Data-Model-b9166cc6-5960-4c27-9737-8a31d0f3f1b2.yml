@@ -1,0 +1,86 @@
+dataModelId: b9166cc6-5960-4c27-9737-8a31d0f3f1b2
+name: testing static DM to Live
+schemaVersion: 1
+pages:
+  - id: zSqmlp7rfk
+    name: Page 1
+    elements:
+      - id: QcneU_VK2u
+        kind: table
+        source:
+          connectionId: 34da9758-4eca-430b-a2a7-253c10ed47b7
+          kind: warehouse-table
+          path:
+            - ALEXIS
+            - PUBLIC
+            - D_PRODUCT
+        columns:
+          - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
+            formula: '[D_PRODUCT/Product Key]'
+          - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
+            formula: '[D_PRODUCT/Product Name]'
+        name: D_PRODUCT 123
+        order:
+          - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
+          - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
+      - id: a5uAUFw-uq
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - EXAMPLES
+            - PLUGS_ELECTRONICS
+            - D_CUSTOMER
+        columns:
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
+            formula: '[D_CUSTOMER/Cust Key]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
+            formula: '[D_CUSTOMER/Cust Name]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
+            formula: '[D_CUSTOMER/Cust Address]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
+            formula: '[D_CUSTOMER/Cust City]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
+            formula: '[D_CUSTOMER/Cust State]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ZIP_CODE
+            formula: '[D_CUSTOMER/Cust Zip Code]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_COUNTY
+            formula: '[D_CUSTOMER/Cust County]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_REGION
+            formula: '[D_CUSTOMER/Cust Region]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_SINCE
+            formula: '[D_CUSTOMER/Cust Since]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_TYPE
+            formula: '[D_CUSTOMER/Cust Type]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_GENDER
+            formula: '[D_CUSTOMER/Cust Gender]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_AGE
+            formula: '[D_CUSTOMER/Cust Age]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/AGE_GROUP
+            formula: '[D_CUSTOMER/Age Group]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CIVIL_STATUS
+            formula: '[D_CUSTOMER/Civil Status]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
+            formula: '[D_CUSTOMER/Loyalty Program]'
+          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
+            formula: '[D_CUSTOMER/Cust Json Field]'
+        name: some unstaged changes nice I see it
+        order:
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ZIP_CODE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_COUNTY
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_REGION
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_SINCE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_TYPE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_GENDER
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_AGE
+          - inode-1Eccgj8RAzzLSjjgVnd08o/AGE_GROUP
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CIVIL_STATUS
+          - inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
+          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
+kind: data-model
