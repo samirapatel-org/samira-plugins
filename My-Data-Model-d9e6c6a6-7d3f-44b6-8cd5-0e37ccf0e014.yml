@@ -1,5 +1,5 @@
 dataModelId: d9e6c6a6-7d3f-44b6-8cd5-0e37ccf0e014
-name: My Data Model
+name: DM with Git and WB ref
 schemaVersion: 1
 pages:
   - id: shQt3mv69U
@@ -19,8 +19,6 @@ pages:
             formula: '[D_CUSTOMER/Cust Key]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
             formula: '[D_CUSTOMER/Cust Name]'
-          - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
-            formula: '[D_CUSTOMER/Cust Address]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
             formula: '[D_CUSTOMER/Cust City]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
@@ -51,7 +49,6 @@ pages:
         order:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
-          - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ADDRESS
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_CITY
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_STATE
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_ZIP_CODE
