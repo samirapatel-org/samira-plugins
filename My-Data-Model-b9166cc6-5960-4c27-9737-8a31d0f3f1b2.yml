@@ -1,5 +1,5 @@
 dataModelId: b9166cc6-5960-4c27-9737-8a31d0f3f1b2
-name: My Data Model
+name: testing static DM to Live
 schemaVersion: 1
 pages:
   - id: zSqmlp7rfk
@@ -65,6 +65,7 @@ pages:
             formula: '[D_CUSTOMER/Loyalty Program]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
             formula: '[D_CUSTOMER/Cust Json Field]'
+        name: some unstaged changes nice I see it
         order:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
