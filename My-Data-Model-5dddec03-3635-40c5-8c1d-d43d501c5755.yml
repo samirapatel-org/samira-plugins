@@ -5,28 +5,22 @@ pages:
   - id: '-tYiOsn-sT'
     name: Page 1
     elements:
-      - id: rGFoBW7AAf
+      - id: KeOswqsoVL
         kind: table
         source:
-          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          connectionId: 34da9758-4eca-430b-a2a7-253c10ed47b7
           kind: warehouse-table
           path:
-            - RETAIL
-            - INSTACART
-            - ORDERS
+            - ALEXIS
+            - PUBLIC
+            - D_PRODUCT
         columns:
-          - id: inode-545bYUTGe6sJdFxjvZariH/DATE
-            formula: '[ORDERS/Date]'
-          - id: inode-545bYUTGe6sJdFxjvZariH/QTY
-            formula: '[ORDERS/Qty]'
-          - id: inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
-            formula: '[ORDERS/Unit Price]'
-          - id: inode-545bYUTGe6sJdFxjvZariH/V userId
-            formula: '[ORDERS/V User Id]'
-        name: Creating first PR
+          - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
+            formula: '[D_PRODUCT/Product Key]'
+          - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
+            formula: '[D_PRODUCT/Product Name]'
+        name: D_PRODUCT - more table
         order:
-          - inode-545bYUTGe6sJdFxjvZariH/DATE
-          - inode-545bYUTGe6sJdFxjvZariH/QTY
-          - inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
-          - inode-545bYUTGe6sJdFxjvZariH/V userId
+          - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
+          - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
 kind: data-model
