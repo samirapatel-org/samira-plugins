@@ -1,5 +1,5 @@
 dataModelId: 5dddec03-3635-40c5-8c1d-d43d501c5755
-name: My Data Model
+name: Unsupported DM with elements
 schemaVersion: 1
 pages:
   - id: '-tYiOsn-sT'
@@ -20,6 +20,7 @@ pages:
           - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
             formula: '[D_PRODUCT/Product Name]'
         name: D_PRODUCT - more table
+        description: 'ghffhkjhii '
         order:
           - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
           - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
