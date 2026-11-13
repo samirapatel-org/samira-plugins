@@ -19,11 +19,21 @@ pages:
             formula: '[ORDERS/Date]'
           - id: inode-545bYUTGe6sJdFxjvZariH/QTY
             formula: '[ORDERS/Qty]'
+            name: changing colum nname
           - id: inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
             formula: '[ORDERS/Unit Price]'
           - id: inode-545bYUTGe6sJdFxjvZariH/V userId
             formula: '[ORDERS/V User Id]'
-        name: Creating first PR
+        name: making changes as tets user
+        filters:
+          - id: KpFC4gjpHP
+            columnId: inode-545bYUTGe6sJdFxjvZariH/DATE
+            kind: date-range
+            mode: last
+            value: 2
+            unit: day
+            includeToday: true
+            includeNulls: when-no-value-is-selected
         order:
           - inode-545bYUTGe6sJdFxjvZariH/DATE
           - inode-545bYUTGe6sJdFxjvZariH/QTY
