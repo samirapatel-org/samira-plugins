@@ -47,7 +47,7 @@ pages:
             formula: '[D_CUSTOMER/Loyalty Program]'
           - id: inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
             formula: '[D_CUSTOMER/Cust Json Field]'
-        name: D_CUSTOME fwefhwejrR
+        name: D_CUSTOME fwefhwejewqewrR
         order:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_KEY
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_NAME
@@ -65,4 +65,27 @@ pages:
           - inode-1Eccgj8RAzzLSjjgVnd08o/CIVIL_STATUS
           - inode-1Eccgj8RAzzLSjjgVnd08o/LOYALTY_PROGRAM
           - inode-1Eccgj8RAzzLSjjgVnd08o/CUST_JSON_FIELD
+      - id: jXjhuiPczG
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - RETAIL
+            - INSTACART
+            - ORDERS
+        columns:
+          - id: inode-545bYUTGe6sJdFxjvZariH/DATE
+            formula: '[ORDERS/Date]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/QTY
+            formula: '[ORDERS/Qty]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
+            formula: '[ORDERS/Unit Price]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/V userId
+            formula: '[ORDERS/V User Id]'
+        order:
+          - inode-545bYUTGe6sJdFxjvZariH/DATE
+          - inode-545bYUTGe6sJdFxjvZariH/QTY
+          - inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
+          - inode-545bYUTGe6sJdFxjvZariH/V userId
 kind: data-model
