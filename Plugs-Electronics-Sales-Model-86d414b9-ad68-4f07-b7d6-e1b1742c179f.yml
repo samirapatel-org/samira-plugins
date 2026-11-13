@@ -1,12 +1,12 @@
 dataModelId: 86d414b9-ad68-4f07-b7d6-e1b1742c179f
 name: Plugs Electronics Sales Model
-schemaVersion: 1
+schemaVersion: "one"
 pages:
   - id: page-sales
     name: Sales
     elements:
       - id: el-sales
-        kind: table
+        kind: tabel
         source:
           connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
           kind: warehouse-table
@@ -28,7 +28,7 @@ pages:
           - id: inode-6vckuM7tbB7FSkinPUgmfO/PURCHASE_METHOD
             formula: '[F_SALES/Purchase Method]'
           - id: calc-order-month
-            formula: DateTrunc("month", [Date])
+            formula: DateTrunc("month", [Order Date Missing])
             name: Order Month
         name: Sales - first PR
         order:
@@ -40,7 +40,7 @@ pages:
           - inode-6vckuM7tbB7FSkinPUgmfO/PURCHASE_METHOD
           - calc-order-month
       - id: el-customer
-        kind: table
+        kind: tbl
         source:
           connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
           kind: warehouse-table
@@ -82,14 +82,15 @@ pages:
         kind: table
         source:
           connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
-          kind: warehouse-table
+          kind: warehouse-tbl
           path:
             - EXAMPLES
             - PLUGS_ELECTRONICS
             - D_STORE
         columns:
+          - formula: '[D_STORE/Store Name]'
           - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_KEY
-            formula: '[D_STORE/Store Key]'
+            formula: 123
           - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_NAME
             formula: '[D_STORE/Store Name]'
           - id: inode-6qRsgXfXpWFuoOK3aH9WWW/STORE_CITY
