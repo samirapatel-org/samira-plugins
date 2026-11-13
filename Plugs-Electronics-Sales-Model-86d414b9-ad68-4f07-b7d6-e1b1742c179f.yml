@@ -40,7 +40,7 @@ pages:
           - inode-6vckuM7tbB7FSkinPUgmfO/PURCHASE_METHOD
           - calc-order-month
       - id: el-customer
-        kind: table
+        kind: tbl
         source:
           connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
           kind: warehouse-table
