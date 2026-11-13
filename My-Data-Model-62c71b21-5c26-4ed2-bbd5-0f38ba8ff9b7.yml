@@ -1,0 +1,40 @@
+dataModelId: 62c71b21-5c26-4ed2-bbd5-0f38ba8ff9b7
+name: My Data Model
+schemaVersion: 1
+pages:
+  - id: JR6BVaa-Mz
+    name: Page 1
+    elements:
+      - id: t-9JaTabJL
+        kind: table
+        source:
+          connectionId: 4e7b9e00-aabe-483e-933b-4c1f6f6fd17b
+          kind: warehouse-table
+          path:
+            - FINANCE
+            - PLUGS_ELECTRONICS_FINANCIALS
+            - ACCOUNT_HIERARCHY
+        columns:
+          - id: inode-3CikUzCgtBJOvkUgObdjI6/SECTION
+            formula: '[ACCOUNT_HIERARCHY/Section]'
+          - id: inode-3CikUzCgtBJOvkUgObdjI6/LEVEL_1_CODE
+            formula: '[ACCOUNT_HIERARCHY/Level 1 Code]'
+          - id: inode-3CikUzCgtBJOvkUgObdjI6/LEVEL_1_CATEGORY
+            formula: '[ACCOUNT_HIERARCHY/Level 1 Category]'
+          - id: inode-3CikUzCgtBJOvkUgObdjI6/LEVEL_2_CODE
+            formula: '[ACCOUNT_HIERARCHY/Level 2 Code]'
+          - id: inode-3CikUzCgtBJOvkUgObdjI6/LEVEL_2_CATEGORY
+            formula: '[ACCOUNT_HIERARCHY/Level 2 Category]'
+          - id: inode-3CikUzCgtBJOvkUgObdjI6/ACCOUNT
+            formula: '[ACCOUNT_HIERARCHY/Account]'
+          - id: inode-3CikUzCgtBJOvkUgObdjI6/DESCRIPTION
+            formula: '[ACCOUNT_HIERARCHY/Description]'
+        order:
+          - inode-3CikUzCgtBJOvkUgObdjI6/SECTION
+          - inode-3CikUzCgtBJOvkUgObdjI6/LEVEL_1_CODE
+          - inode-3CikUzCgtBJOvkUgObdjI6/LEVEL_1_CATEGORY
+          - inode-3CikUzCgtBJOvkUgObdjI6/LEVEL_2_CODE
+          - inode-3CikUzCgtBJOvkUgObdjI6/LEVEL_2_CATEGORY
+          - inode-3CikUzCgtBJOvkUgObdjI6/ACCOUNT
+          - inode-3CikUzCgtBJOvkUgObdjI6/DESCRIPTION
+kind: data-model
