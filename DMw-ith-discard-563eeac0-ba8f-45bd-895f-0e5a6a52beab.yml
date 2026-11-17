@@ -1,0 +1,31 @@
+dataModelId: 563eeac0-ba8f-45bd-895f-0e5a6a52beab
+name: DMw ith discard
+schemaVersion: 1
+pages:
+  - id: cn_SRznmY3
+    name: Page 1
+    elements:
+      - id: c8G9Sr-1-X
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - RETAIL
+            - INSTACART
+            - ORDERS
+        columns:
+          - id: inode-545bYUTGe6sJdFxjvZariH/DATE
+            formula: '[ORDERS/Date]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/QTY
+            formula: '[ORDERS/Qty]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
+            formula: '[ORDERS/Unit Price]'
+          - id: inode-545bYUTGe6sJdFxjvZariH/V userId
+            formula: '[ORDERS/V User Id]'
+        order:
+          - inode-545bYUTGe6sJdFxjvZariH/DATE
+          - inode-545bYUTGe6sJdFxjvZariH/QTY
+          - inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
+          - inode-545bYUTGe6sJdFxjvZariH/V userId
+kind: data-model
