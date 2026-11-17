@@ -1,0 +1,35 @@
+dataModelId: 7baf56b1-cce2-4dc7-a639-391f40a395f9
+name: DM to test discard
+schemaVersion: 1
+pages:
+  - id: KyEUYnhbyH
+    name: Page 1
+    elements:
+      - id: dXJKX7goqy
+        kind: table
+        source:
+          connectionId: 4e7b9e00-aabe-483e-933b-4c1f6f6fd17b
+          kind: warehouse-table
+          path:
+            - EXAMPLES
+            - CENSUS
+            - CENSUS
+        columns:
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
+            formula: '[CENSUS/Fips]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
+            formula: '[CENSUS/County]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
+            formula: '[CENSUS/State]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
+            formula: '[CENSUS/Population 2000]'
+          - id: inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
+            formula: '[CENSUS/Population 2010]'
+        name: CENSUS PR 1 connection
+        order:
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/FIPS
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/COUNTY
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/STATE
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2000
+          - inode-1sCJ6HTJLe7ClnV3tX51LR/population 2010
+kind: data-model
