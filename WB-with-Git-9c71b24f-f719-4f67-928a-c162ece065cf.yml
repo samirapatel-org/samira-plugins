@@ -1,0 +1,12 @@
+workbookId: 9c71b24f-f719-4f67-928a-c162ece065cf
+name: WB with Git
+document:
+  schemaVersion: 1
+  elements: []
+  pages:
+    - id: N25G3nksvZ
+      name: Page 1
+  kind: workbook
+  layout: |
+    <?xml version="1.0" encoding="utf-8"?>
+    <Page type="grid" gridTemplateColumns="repeat(24, 1fr)" gridTemplateRows="auto" id="N25G3nksvZ"/>
