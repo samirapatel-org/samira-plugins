@@ -2,11 +2,37 @@ workbookId: 769f54d3-eabf-4ff3-b09c-a233a7493a89
 name: wb with gitttttt
 document:
   schemaVersion: 1
-  elements: []
+  elements:
+    - id: hCBriwDJRU
+      kind: table
+      source:
+        connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+        kind: warehouse-table
+        path:
+          - SAMPLE_CONNECTION_STAGING
+          - ORG_S_EFAB94135BA046728105E57D773ED679
+          - SIG_ST_NEW_SIGMA_TABLE_8cf6118a_42a5_4c85_a173_c6802b53ace8
+      columns:
+        - id: inode-4hZnwqEchrB5iFjeEnBqC4/ID
+          formula: '[SIG_ST_NEW_SIGMA_TABLE_8cf6118a_42a5_4c85_a173_c6802b53ace8/ID]'
+          hidden: true
+        - id: inode-4hZnwqEchrB5iFjeEnBqC4/iCMaOI3ihx
+          formula: '[SIG_ST_NEW_SIGMA_TABLE_8cf6118a_42a5_4c85_a173_c6802b53ace8/Text]'
+          name: table 1
+        - id: 2bAWd2kSN1
+          formula: '[SIG_ST_NEW_SIGMA_TABLE_8cf6118a_42a5_4c85_a173_c6802b53ace8/Text (1)]'
+          name: table 2
+      name: adding new input table
+      order:
+        - inode-4hZnwqEchrB5iFjeEnBqC4/ID
+        - inode-4hZnwqEchrB5iFjeEnBqC4/iCMaOI3ihx
+        - 2bAWd2kSN1
   pages:
     - id: YoOe28Jw_x
       name: Page 1
   kind: workbook
   layout: |
     <?xml version="1.0" encoding="utf-8"?>
-    <Page type="grid" gridTemplateColumns="repeat(24, 1fr)" gridTemplateRows="auto" id="YoOe28Jw_x"/>
+    <Page type="grid" gridTemplateColumns="repeat(24, 1fr)" gridTemplateRows="auto" id="YoOe28Jw_x">
+      <Element elementId="hCBriwDJRU" gridColumn="1 / 25" gridRow="1 / 21"/>
+    </Page>
