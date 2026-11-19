@@ -1,5 +1,5 @@
 dataModelId: ae410462-efdb-4436-b32a-3ec8b05bedf4
-name: My Data Model
+name: DM to WB with Git
 schemaVersion: 1
 pages:
   - id: D9Wk6yS_F1
@@ -29,4 +29,89 @@ pages:
           - inode-545bYUTGe6sJdFxjvZariH/QTY
           - inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
           - inode-545bYUTGe6sJdFxjvZariH/V userId
+      - id: UdkGnzRmD0
+        kind: table
+        source:
+          connectionId: be8e2dfe-9bbc-4e90-9463-1022ea866473
+          kind: warehouse-table
+          path:
+            - EXAMPLES
+            - PLUGS_ELECTRONICS
+            - PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA
+        columns:
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/ORDER_NUMBER
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Order Number]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/DATE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Date]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/SKU_NUMBER
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Sku Number]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/QUANTITY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Quantity]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/COST
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Cost]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/PRICE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Price]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/PRODUCT_TYPE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Product Type]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/PRODUCT_FAMILY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Product Family]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/PRODUCT_LINE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Product Line]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/BRAND
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Brand]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/PRODUCT_NAME
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Product Name]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_NAME
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Name]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_KEY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Key]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_REGION
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Region]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_STATE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store State]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_CITY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store City]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_ZIP_CODE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Zip Code]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_LATITUDE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Latitude]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_LONGITUDE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Longitude]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/CUST_KEY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Cust Key]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/CUSTOMER_NAME
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Customer Name]'
+          - id: inode-2xgBgFWNxeu4ZMRsHRpi2p/CUST_JSON
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Cust Json]'
+        name: Orders only for West region
+        filters:
+          - id: 6u1S27LrQ3
+            columnId: inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_REGION
+            kind: list
+            mode: include
+            values:
+              - West
+        order:
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/ORDER_NUMBER
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/DATE
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/SKU_NUMBER
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/QUANTITY
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/COST
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/PRICE
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/PRODUCT_TYPE
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/PRODUCT_FAMILY
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/PRODUCT_LINE
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/BRAND
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/PRODUCT_NAME
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_NAME
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_KEY
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_REGION
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_STATE
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_CITY
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_ZIP_CODE
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_LATITUDE
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/STORE_LONGITUDE
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/CUST_KEY
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/CUSTOMER_NAME
+          - inode-2xgBgFWNxeu4ZMRsHRpi2p/CUST_JSON
 kind: data-model
