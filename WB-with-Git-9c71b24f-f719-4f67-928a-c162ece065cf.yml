@@ -27,6 +27,24 @@ document:
         - inode-545bYUTGe6sJdFxjvZariH/QTY
         - inode-545bYUTGe6sJdFxjvZariH/UNIT PRICE
         - inode-545bYUTGe6sJdFxjvZariH/V userId
+    - id: jNAqEiG2o1
+      kind: table
+      source:
+        connectionId: 34da9758-4eca-430b-a2a7-253c10ed47b7
+        kind: warehouse-table
+        path:
+          - ALEXIS
+          - PUBLIC
+          - D_PRODUCT
+      columns:
+        - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
+          formula: '[D_PRODUCT/Product Key]'
+        - id: inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
+          formula: '[D_PRODUCT/Product Name]'
+      name: D_PRODUCT will my PR be updated
+      order:
+        - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_KEY
+        - inode-7oybinvNUe1nVPpwckMkSt/PRODUCT_NAME
   pages:
     - id: N25G3nksvZ
       name: Page 1
@@ -35,4 +53,5 @@ document:
     <?xml version="1.0" encoding="utf-8"?>
     <Page type="grid" gridTemplateColumns="repeat(24, 1fr)" gridTemplateRows="auto" id="N25G3nksvZ">
       <Element elementId="R4Orn1k1sM" gridColumn="1 / 25" gridRow="1 / 21"/>
+      <Element elementId="jNAqEiG2o1" gridColumn="1 / 25" gridRow="21 / 41"/>
     </Page>
